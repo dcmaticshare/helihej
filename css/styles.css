@@ -45,7 +45,36 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .desktopNav {
+    visibility: visible;
+  }
+
+  .mobileNav {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .banner {
+    height: 600px;
+  }
 }
+
+@media (max-width: 991px) {
+  .mobileNav {
+    visibility: visible;
+  }
+
+  .desktopNav {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .banner {
+    height: 300px;
+  }
+}
+
 
 
 .hideOverflow {
@@ -77,14 +106,28 @@ a:hover {
   color: #e59b1a;
 }
 
-.dropdown-item{
+.dropdown-item {
   color: #6d6d70;
 }
 
-.dropdown-item:hover{
-  color: #6d6d70  !important;
+.dropdown-item:hover {
+  color: #6d6d70 !important;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+
+.mobileNav .active .nav-link {
+  color: #e59b1a !important;
+}
+
+
+/* Custom CSS */
 
 .nav-title {
   color: #9a9a9a;
@@ -106,13 +149,13 @@ a:hover {
 
 .top-infobar {
   display: flex;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    flex-direction: row;
-    flex-basis: auto;
-    flex-wrap: nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-wrap: nowrap;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 
@@ -165,7 +208,7 @@ a:hover {
 .nav-secondary .activeBorder {
   border-bottom-style: solid;
   border-bottom-color: rgba(255, 255, 255, 1);
-  border-bottom-width: 2px;
+  border-bottom-width: 2.5px;
 }
 
 .nav-secondary .active {
@@ -200,13 +243,10 @@ a:hover {
   background-image: url(https://www.schellekens.com/wp-content/uploads/2017/07/jpg-TvdH20070829-008-1540x400.jpg);
 }
 
-.banner{
+.banner {
   background-size: cover;
   width: auto;
-  height: 600px;
   position: relative;
   left: 0px;
   top: 0px;
 }
-
-
