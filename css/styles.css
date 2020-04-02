@@ -73,6 +73,18 @@ a:hover {
 }
 
 
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #e59b1a;
+}
+
+.dropdown-item{
+  color: #6d6d70;
+}
+
+.dropdown-item:hover{
+  color: #6d6d70  !important;
+}
+
 
 .nav-title {
   color: #9a9a9a;
