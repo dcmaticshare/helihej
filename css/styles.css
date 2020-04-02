@@ -143,7 +143,15 @@ a:hover {
 }
 
 
+.desktopNav .brandLogo {
+  height: 72px;
+  width: 317px;
+}
 
+.mobileNav .brandLogo {
+  height: 52px;
+  width: 228px;
+}
 
 
 
