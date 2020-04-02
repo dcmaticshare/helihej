@@ -1,0 +1,200 @@
+body {
+  font-family: 'HelveticaNeue-Roman';
+  font-weight: 500;
+  font-style: normal;
+  color: #6d6d70;
+}
+
+h1 {
+  font-family: 'HelveticaNeue-Roman';
+  font-size: 5em;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-family: 'HelveticaNeue-Roman';
+  line-height: 1.5;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  font-family: 'HelveticaNeue-Roman';
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+}
+
+p {
+  font-family: 'HelveticaNeue-Roman';
+  font-size: 1.4em;
+}
+
+a {
+  color: #6d6d70;
+}
+
+a:hover {
+  color: #e59b1a;
+}
+
+@media (min-width: 992px) {
+  .containerContent {
+    margin: 0 auto;
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+.hideOverflow {
+  overflow-x: hidden;
+}
+
+/* Bootstrap overrides*/
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+
+
+.nav-link-right-separated::after {
+  color: #e59b1a;
+  content: '/';
+  font-size: 17px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.nav-link:hover {
+  color: #e59b1a !important;
+}
+
+
+
+.nav-title {
+  color: #9a9a9a;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
+
+
+
+.navbar-top {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+.top-infobar {
+  display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+
+.phoneIcon {
+  background-image: url('../images/phone.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  padding-left: 30px;
+  display: block;
+}
+
+.mailIcon {
+  background-image: url('../images/mail.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  padding-left: 30px;
+  display: block;
+}
+
+.notificationIcon {
+  background-image: url('../images/notification.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  padding-left: 30px;
+  display: block;
+}
+
+
+
+.nav-secondary {
+  background-color: #e59b1a;
+  /* background-color: #7f7f7f; */
+}
+
+.nav-secondary .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'HelveticaNeue-Medium';
+  font-size: 1.2em;
+  margin-top: 11px;
+  margin-bottom: 6px;
+}
+
+.nav-secondary .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.nav-secondary .activeBorder {
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 1);
+  border-bottom-width: 2px;
+}
+
+.nav-secondary .active {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav .home {
+  margin-right: 10px;
+}
+
+.homeIcon {
+  width: 25px;
+  height: 25px;
+  opacity: 0.8;
+}
+
+.active .homeIcon {
+  opacity: 1;
+}
+
+
+
+.banner.banner1 {
+  background-image: url(https://www.schellekens.com/wp-content/uploads/2017/05/Pontsteiger-Proscreen-zip-uitvoering-01-1540x400.png);
+}
+
+.banner.banner2 {
+  background-image: url(https://www.schellekens.com/wp-content/uploads/2017/06/hero-home-2-1440x400.jpg);
+}
+
+.banner.banner3 {
+  background-image: url(https://www.schellekens.com/wp-content/uploads/2017/07/jpg-TvdH20070829-008-1540x400.jpg);
+}
+
+.banner{
+  background-size: cover;
+  width: auto;
+  height: 400px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+
