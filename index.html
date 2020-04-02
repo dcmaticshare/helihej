@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Helioscreen Services</title>
+  <title>Helioscreen Service</title>
   <link rel="icon" type="image/png" href="images/favIcon.png">
   <meta property="og:title" content="Helioscreen">
   <meta property="og:description" content="">
@@ -12,12 +12,12 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css?v=3">
+  <link rel="stylesheet" href="css/styles.css?v=4">
 
 </head>
 
 <body>
-  <div class="containerContent">
+  <div class="desktopNav containerContent">
     <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-top">
       <div class="top-infobar w-100 order-1 order-sm-0">
         <ul class="navbar-nav mr-auto">
@@ -54,10 +54,11 @@
       </div>
     </nav>
   </div>
-  <nav class="nav flex-column nav-secondary">
+  <nav class="nav flex-column nav-secondary desktopNav">
     <ul class="nav justify-content-center">
       <li class="nav-item activeBorder home">
-        <a class="nav-link active" href="#"><img src="images/home.png" alt="Home Button" class="homeIcon"></a>
+        <!-- <a class="nav-link active" href="#"><img src="images/home.png" alt="Home Button" class="homeIcon"></a> -->
+        <a class="nav-link active" href="#">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Herstelling</a>
@@ -66,7 +67,7 @@
         <a class="nav-link" href="#">Onderhoud</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Reinigings & Onderhoudsvoorschriften</a>
+        <a class="nav-link" href="#">Voorschriften</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="http://www.helioscreen-projects.be">Producten</a>
@@ -79,6 +80,69 @@
       </li>
     </ul>
   </nav>
+  <div class="mobileNav">
+    <nav class="navbar sticky-top  navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="images/topLogo.png" alt="Helioscreen Projects" height="72"
+        width="317"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <div class="dropdown-divider"></div>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Herstelling</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Onderhoud</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Voorschriften</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.helioscreen-projects.be">Producten</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Referenties</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vacatures</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ons bedrijf</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              NL
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Français</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Nederlands</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
