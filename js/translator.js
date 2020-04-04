@@ -1,4 +1,16 @@
 var dictionary = {
+  'banner1': {
+    'nl': 'Dimitri is een speciaal man',
+    'fr': 'Dimitri est un homme spécial',
+  },
+  'banner2': {
+    'nl': 'Iedereen vraagt zich af wat hij eigenlijk doet op zijn werk',
+    'fr': 'Tout le monde se demande ce qu ils font réellement au travail',
+  },
+  'banner3': {
+    'nl': 'Maar niemand durft er iets van zeggen',
+    'fr': 'Mais personne n ose rien en dire',
+  },
   'herstelling': {
     'nl': 'Herstelling',
     'fr': 'Réparer',
