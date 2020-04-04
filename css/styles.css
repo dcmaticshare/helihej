@@ -6,9 +6,9 @@ body {
 }
 
 h1 {
-  font-family: 'HelveticaNeue-Roman';
-  font-size: 5em;
-  letter-spacing: 0.1em;
+  font-family: 'HelveticaNeue-Medium';
+  font-size: 3em;
+  letter-spacing: 0.03em;
 }
 
 h2 {
@@ -39,6 +39,11 @@ a:hover {
 }
 
 @media (min-width: 992px) {
+
+  h1 {
+    font-size: 4em;
+  }
+
   .containerContent {
     margin: 0 auto;
     max-width: 1220px;
@@ -58,9 +63,28 @@ a:hover {
   .banner {
     height: 600px;
   }
+
+  .carousel-item-button {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .carousel-wrapper {
+    height: 600px;
+  }
+
+  .carousel-title {
+    width: 600px;
+    height: 100px;
+  }
+
 }
 
 @media (max-width: 991px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
   .mobileNav {
     visibility: visible;
   }
@@ -73,7 +97,34 @@ a:hover {
   .banner {
     height: 400px;
   }
+
+  .carousel-item-button {
+    visibility: visible;
+  }
+
+  .carousel-title {
+    width: 100%;
+    height: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .carousel-wrapper {
+    height: 340px;
+  }
+
+
 }
+
+@media (max-width: 991px) {
+
+  .carousel-title {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+}
+
 
 
 
@@ -322,4 +373,30 @@ a:hover {
   position: relative;
   left: 0px;
   top: 0px;
+}
+
+.carousel-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.carousel-title {
+  position: relative;
+  height: 300px;
+  line-height: 100px;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  display: table;
+}
+
+.carousel-title > h1 {
+  color: rgba(255, 255, 255, 0.94);
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0  !important;
+  display: table-cell;
+  vertical-align: middle;
 }
