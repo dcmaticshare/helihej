@@ -24,8 +24,8 @@ var dictionary = {
     'fr': 'Contacter',
   },
   'herstellingaanvragen': {
-    'nl': 'herstelling aanvragen',
-    'fr': 'demander réparation',
+    'nl': 'Herstelling aanvragen',
+    'fr': 'Demander réparation',
   },
   'onsbedrijf': {
     'nl': 'Ons bedrijf',
