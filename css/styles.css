@@ -310,6 +310,15 @@ a:hover {
   display: block;
 }
 
+.notificationIconLight {
+  background-image: url('../images/notificationLight.png');
+  background-repeat: no-repeat;
+  background-size: 22px, 15px;
+  background-position-y: center;
+  padding-left: 30px;
+  display: block;
+}
+
 
 
 .nav-secondary {
