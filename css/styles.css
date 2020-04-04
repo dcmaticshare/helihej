@@ -38,6 +38,18 @@ a:hover {
   color: #e59b1a;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.firstLetter {
+  text-transform: capitalize;
+}
+
 @media (min-width: 992px) {
 
   h1 {
@@ -152,9 +164,6 @@ a:hover {
   color: #e59b1a !important;
 }
 
-.nav-link.dropdown-toggle{
-  text-transform: uppercase;
-}
 
 
 .navbar-light .navbar-nav .show>.nav-link {
@@ -196,7 +205,6 @@ a:hover {
 
   background-color: #e59b1a !important;
   border-color: #e59b1a !important;
-  text-transform: capitalize;
 }
 
 .btn-primary:focus,
