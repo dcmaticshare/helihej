@@ -136,6 +136,11 @@ a:hover {
   color: #e59b1a !important;
 }
 
+.mobileNav .dropdown-toggle {
+  outline: none !important;
+  box-shadow: none;
+}
+
 
 .carousel-inner {
   position: relative;
