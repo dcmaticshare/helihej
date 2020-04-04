@@ -141,6 +141,38 @@ a:hover {
   box-shadow: none;
 }
 
+.btn-primary {
+
+  background-color: #e59b1a !important;
+  border-color: #e59b1a !important;
+  text-transform: capitalize;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:checked {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.btn:focus,
+.btn:active,
+.btn.active.focus,
+.btn.active:focus {
+  outline: none !important;
+  background-color: #e59b1a;
+  border-color: #e59b1a;
+  box-shadow: none !important;
+}
+
+
+.btn-primary:hover {
+
+  background-color: #6d6d70 !important;
+  border-color: #6d6d70 !important;
+}
+
 
 .carousel-inner {
   position: relative;
@@ -149,8 +181,10 @@ a:hover {
 
 .carousel-item-button {
   position: absolute;
-  top: 100px;
-  left: 0px;
+  top: 390px;
+  left: 50%;
+  transform: translate(-50%,0)
+  
 }
 
 .carousel-item-button a {
