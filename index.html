@@ -12,7 +12,7 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css?v=7">
+  <link rel="stylesheet" href="css/styles.css?v=8">
 
 </head>
 
@@ -92,39 +92,39 @@
         <ul class="navbar-nav">
           <div class="dropdown-divider"></div>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item">
-            <a class="nav-link herstelling" href="#" data-translate="herstelling">Herstelling</a>
+            <a class="nav-link herstelling" href="#" data-translate="herstelling" data-toggle="collapse" data-target=".navbar-collapse.show">Herstelling</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="onderhoud">Onderhoud</a>
+            <a class="nav-link" href="#" data-translate="onderhoud" data-toggle="collapse" data-target=".navbar-collapse.show">Onderhoud</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="voorschriften">Voorschriften</a>
+            <a class="nav-link" href="#" data-translate="voorschriften" data-toggle="collapse" data-target=".navbar-collapse.show">Voorschriften</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item">
-            <a class="nav-link" href="http://www.helioscreen-projects.be" data-translate="producten">Producten</a>
+            <a class="nav-link" href="http://www.helioscreen-projects.be" data-translate="producten" data-toggle="collapse" data-target=".navbar-collapse.show">Producten</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="referenties">Referenties</a>
+            <a class="nav-link" href="#" data-translate="referenties" data-toggle="collapse" data-target=".navbar-collapse.show">Referenties</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="vacatures">Vacatures</a>
+            <a class="nav-link" href="#" data-translate="vacatures" data-toggle="collapse" data-target=".navbar-collapse.show">Vacatures</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="onsbedrijf">Ons bedrijf</a>
+            <a class="nav-link" href="#" data-translate="onsbedrijf" data-toggle="collapse" data-target=".navbar-collapse.show">Ons bedrijf</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="contact">Contact</a>
+            <a class="nav-link" href="#" data-translate="contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
           </li>
           <div class="dropdown-divider"></div>
           <li class="nav-item dropdown">
@@ -133,9 +133,9 @@
               NL
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#fr" onclick="change_lang(1)">Français</a>
+              <a class="dropdown-item" href="#fr" onclick="change_lang(1)" data-toggle="collapse" data-target=".navbar-collapse.show">Français</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#nl" onclick="change_lang(0)">Nederlands</a>
+              <a class="dropdown-item" href="#nl" onclick="change_lang(0)" data-toggle="collapse" data-target=".navbar-collapse.show">Nederlands</a>
             </div>
           </li>
         </ul>
@@ -172,7 +172,7 @@
     </div>
   </div>
   <div class="carousel-item-button">
-    <button class="btn btn-primary" data-translate="herstellingaanvragen">Herstelling aanvragen</button>
+    <button class="btn btn-primary notificationIconLight" data-translate="herstellingaanvragen">Herstelling aanvragen</button>
   </div>
   <form action="https://formspree.io/xzbazrel" method="POST" enctype="multipart/form-data">
     <label>
