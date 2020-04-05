@@ -46,6 +46,10 @@ var dictionary = {
   'vacatures': {
     'nl': 'Vacatures',
     'fr': 'Postes vacants',
+  },
+  'veldError': {
+    'nl': 'Veld niet correct ingevuld',
+    'fr': 'Texte mal rempli',
   }
   
 };
