@@ -194,7 +194,7 @@
   </div>
   <section class="formPadding">
 
-    <form>
+    <form class="needs-validation" novalidate>
       <h2 class="">
         <br>
       </h2>
@@ -207,13 +207,13 @@
           <br>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+          <input class="form-check-input" type="radio" name="Particulier" id="exampleRadios1" value="Ja" required>
           <label class="form-check-label" for="exampleRadios1">
             Ja
           </label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <input class="form-check-input" type="radio" name="Particulier" id="exampleRadios2" value="Nee" required>
           <label class="form-check-label" for="exampleRadios2">
             Nee
           </label>
@@ -221,19 +221,34 @@
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Naam *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en naam">
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en naam" value=""
+          required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Adres *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
+        <input type="text" class="form-control" id="exampleInputPassword1"
+          placeholder="Straat, huisnummer, gemeente en postcode" value="" required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Telefoon/GSM *</label>
-        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer">
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value=""
+          required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">E-mail *</label>
-        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail">
+        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail" value="" required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="largebreak">
         <br>
@@ -243,11 +258,18 @@
       </h2>
       <div class="form-group">
         <label for="exampleInputPassword1">Klantnummer</label>
-        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Klantnummer">
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Klantnummer" value=""
+          required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Bedrijf</label>
-        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Bedrijf">
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Bedrijf" value="" required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputEmail1">Ik heb een onderhoudscontract *</label>
@@ -255,44 +277,61 @@
           <br>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-          <label class="form-check-label" for="exampleRadios1">
+          <input class="form-check-input" type="radio" name="Onderhoudscontract" id="exampleRadios3" value="Ja" required>
+          <label class="form-check-label" for="exampleRadios3">
             Ja
           </label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-          <label class="form-check-label" for="exampleRadios2">
+          <input class="form-check-input" type="radio" name="Onderhoudscontract" id="exampleRadios4" value="Nee" required>
+          <label class="form-check-label" for="exampleRadios4">
             Nee
           </label>
         </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Adres *</label>
-        <input type="text" class="form-control"   name="billingAddress" id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
+        <input type="text" class="form-control" name="billingAddress" id="exampleInputPassword1"
+          placeholder="Straat, huisnummer, gemeente en postcode" value="" required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Telefoon/GSM *</label>
-        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer">
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value=""
+          required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">E-mail *</label>
-        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail">
+        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail" value="" required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">BTW nummer *</label>
-        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="BTW nummer">
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="BTW nummer" value="" required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect1">BTW tarief</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control" id="exampleFormControlSelect1" required>
           <option value="" selected disabled hidden>Kies hier</option>
-          <option>6%</option>
-          <option>12%</option>
-          <option>21%</option>
-          <option>Medecontractant</option>
-          <option>Ik weet het niet</option>
+          <option value="6%">6%</option>
+          <option value="12%">12%</option>
+          <option value="21%">21%</option>
+          <option value="Medecontractant">Medecontractant</option>
+          <option value="Ik weet het niet">Ik weet het niet</option>
         </select>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputEmail1">Factuur ontvangen per mail *</label>
@@ -300,19 +339,20 @@
           <br>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-          <label class="form-check-label" for="exampleRadios1">
+          <input class="form-check-input" type="radio" name="Factuur per mail" id="exampleRadios5" value="Ja" required>
+          <label class="form-check-label" for="exampleRadios5">
             Ja
           </label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-          <label class="form-check-label" for="exampleRadios2">
+          <input class="form-check-input" type="radio" name="Factuur per mail" id="exampleRadios6" value="Nee" required>
+          <label class="form-check-label" for="exampleRadios6">
             Nee
           </label>
         </div>
+        
       </div>
-      
+
       <div class="largebreak">
         <br>
       </div>
@@ -320,23 +360,37 @@
         Interventieadres
       </h2>
       <div class="form-check">
-        <input type="checkbox" class="form-check-input"  name="sameAddressCheck" id="exampleCheck1" onclick="FillBilling(this.form)">
-        <label class="form-check-label" for="exampleCheck1">Het interventieadres is hetzelfde als het facturatieadres</label>
+        <input type="checkbox" class="form-check-input" name="sameAddressCheck" id="exampleCheck1"
+          onclick="FillBilling(this.form)">
+        <label class="form-check-label" for="exampleCheck1">Het interventieadres is hetzelfde als het
+          facturatieadres</label>
       </div>
       <div class="largebreak">
         <br>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Adres *</label>
-        <input type="text" class="form-control"  name="workAddress"  id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
+        <input type="text" class="form-control" name="workAddress" id="exampleInputPassword1"
+          placeholder="Straat, huisnummer, gemeente en postcode" value="" required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Naam contactpersoon ter plaatse *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en naam">
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en naam" value=""
+          required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Telefoon/GSM contactpersoon ter plaatse *</label>
-        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer">
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value=""
+          required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="largebreak">
         <br>
@@ -346,19 +400,25 @@
       </h2>
       <div class="form-group">
         <label for="exampleInputPassword1">Merk van de zonnewering *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Merk van de zonnewering">
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Merk van de zonnewering"
+          value="" required>
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
       </div>
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Toelichting over de gevraagde interventie</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Bereikbaarheid: Hoe kunnen onze technici bij de zonwering geraken?</label>
+        <label for="exampleFormControlSelect1">Bereikbaarheid: Hoe kunnen onze technici bij de zonwering
+          geraken?</label>
         <select class="form-control" id="exampleFormControlSelect1">
           <option value="" selected disabled hidden>Kies hier</option>
-          <option>Gelijkvloers / Terras (evt met kleine trapladder)</option>
-          <option>Hoogwerker</option>
-          <option>Gevelinstallatie</option>
+          <option value="Gelijkvloers / Terras (evt met kleine trapladder">Gelijkvloers / Terras (evt met kleine
+            trapladder)</option>
+          <option value="Hoogwerker">Hoogwerker</option>
+          <option value="Gevelinstallatie">Gevelinstallatie</option>
         </select>
       </div>
       <div class="form-group">
@@ -398,8 +458,28 @@
     $('.carousel').carousel()
   </script>
 
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
   <!-- Extra Javascript -->
-  <script src="js/translator.js?v=3"></script>
+  <script src="js/translator.js?v=4"></script>
   <script src="js/fillBilling.js?v=1"></script>
 
   <!-- Smooth scrolling in IE -->
