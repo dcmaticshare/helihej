@@ -207,7 +207,7 @@
           <br>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
           <label class="form-check-label" for="exampleRadios1">
             Ja
           </label>
@@ -255,7 +255,7 @@
           <br>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
           <label class="form-check-label" for="exampleRadios1">
             Ja
           </label>
@@ -267,10 +267,123 @@
           </label>
         </div>
       </div>
-      <h2 class="">
+      <div class="form-group">
+        <label for="exampleInputPassword1">Adres *</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Telefoon/GSM *</label>
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">E-mail *</label>
+        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">BTW nummer *</label>
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="BTW nummer">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">BTW tarief</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option value="" selected disabled hidden>Kies hier</option>
+          <option>6%</option>
+          <option>12%</option>
+          <option>21%</option>
+          <option>Medecontractant</option>
+          <option>Ik weet het niet</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Factuur ontvangen per mail *</label>
+        <div class="smallbreak">
+          <br>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+          <label class="form-check-label" for="exampleRadios1">
+            Ja
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Nee
+          </label>
+        </div>
+      </div>
+      
+      <div class="largebreak">
         <br>
+      </div>
+      <h2 class="body-H2">
+        Interventieadres
       </h2>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Het interventieadres is hetzelfde als het facturatieadres</label>
+      </div>
+      <div class="largebreak">
+        <br>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Adres *</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Naam contactpersoon ter plaatse *</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en naam">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Telefoon/GSM contactpersoon ter plaatse *</label>
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer">
+      </div>
+      <div class="largebreak">
+        <br>
+      </div>
+      <h2 class="body-H2">
+        Omschrijving defect
+      </h2>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Merk van de zonnewering *</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Merk van de zonnewering">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Toelichting over de gevraagde interventie</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Bereikbaarheid: Hoe kunnen onze technici bij de zonwering geraken?</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option value="" selected disabled hidden>Kies hier</option>
+          <option>Gelijkvloers / Terras (evt met kleine trapladder)</option>
+          <option>Hoogwerker</option>
+          <option>Gevelinstallatie</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlFile1">Voeg foto's/documenten toe *</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <h2 class="mediumbreak">
+          <br>
+        </h2>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <h2 class="mediumbreak">
+          <br>
+        </h2>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <h2 class="mediumbreak">
+          <br>
+        </h2>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <h2 class="mediumbreak">
+          <br>
+        </h2>
+      </div>
       <button type="submit" class="btn btn-primary">Verzend</button>
+      <div class="largebreak">
+        <br>
+      </div>
     </form>
   </section>
 
