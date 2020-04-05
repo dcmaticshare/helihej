@@ -269,7 +269,7 @@
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Adres *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
+        <input type="text" class="form-control"   name="billingAddress" id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Telefoon/GSM *</label>
@@ -320,7 +320,7 @@
         Interventieadres
       </h2>
       <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <input type="checkbox" class="form-check-input"  name="sameAddressCheck" id="exampleCheck1" onclick="FillBilling(this.form)">
         <label class="form-check-label" for="exampleCheck1">Het interventieadres is hetzelfde als het facturatieadres</label>
       </div>
       <div class="largebreak">
@@ -328,7 +328,7 @@
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Adres *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
+        <input type="text" class="form-control"  name="workAddress"  id="exampleInputPassword1" placeholder="Straat, huisnummer, gemeente en postcode">
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Naam contactpersoon ter plaatse *</label>
@@ -400,6 +400,7 @@
 
   <!-- Extra Javascript -->
   <script src="js/translator.js?v=3"></script>
+  <script src="js/fillBilling.js?v=1"></script>
 
   <!-- Smooth scrolling in IE -->
   <script src="js/scrollFixIE.js"></script>
