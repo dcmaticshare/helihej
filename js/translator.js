@@ -9,7 +9,7 @@ var dictionary = {
   },
   'banner2': {
     'nl': 'Iedereen vraagt zich af wat hij eigenlijk doet op zijn werk',
-    'fr': 'Tout le monde se demande ce qu\'il font réellement au travail',
+    'fr': 'Tout le monde se demande ce qu\'il fait réellement au travail',
   },
   'banner3': {
     'nl': 'Maar niemand durft er iets van zeggen',
