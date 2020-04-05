@@ -12,7 +12,7 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css?v=11">
+  <link rel="stylesheet" href="css/styles.css?v=12">
 
 </head>
 
@@ -194,7 +194,7 @@
   </div>
   <section class="formPadding">
 
-    <form class="needs-validation" novalidate>
+    <form class="needs-validation" novalidate action="https://formspree.io/xzbazrel" method="POST">
       <h2 class="">
         <br>
       </h2>
@@ -221,7 +221,7 @@
       </div>
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Naam *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en naam" value=""
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en achternaam" value="" name="Naam Contact"
           required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
@@ -230,14 +230,14 @@
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Adres *</label>
         <input type="text" class="form-control" id="exampleInputPassword1"
-          placeholder="Straat, huisnummer, gemeente en postcode" value="" required>
+          placeholder="Straat, huisnummer, gemeente en postcode" value="" name="Adres Contact" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Telefoon/GSM *</label>
-        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value=""
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value="" name="Telefoon Contact"
           required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
@@ -245,7 +245,7 @@
       </div>
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">E-mail *</label>
-        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail" value="" required>
+        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail" value="" name="Email Contact" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
@@ -258,7 +258,7 @@
       </h2>
       <div class="form-group">
         <label for="exampleInputPassword1">Klantnummer</label>
-        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Klantnummer" value=""
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Klantnummer" value="" name="Klantnummer"
           required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
@@ -266,7 +266,7 @@
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Bedrijf</label>
-        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Bedrijf" value="" required>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Bedrijf" value="" name="Bedrijf" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
@@ -294,14 +294,14 @@
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Adres *</label>
         <input type="text" class="form-control" name="billingAddress" id="exampleInputPassword1"
-          placeholder="Straat, huisnummer, gemeente en postcode" value="" required>
+          placeholder="Straat, huisnummer, gemeente en postcode" value="" name="Facturatie Adres" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Telefoon/GSM *</label>
-        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value=""
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value="" name="Telefoon Facturatie"
           required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
@@ -309,21 +309,21 @@
       </div>
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">E-mail *</label>
-        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail" value="" required>
+        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail" value="" name="Email Facturatie" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">BTW nummer *</label>
-        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="BTW nummer" value="" required>
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="BTW nummer" value="" name="BTW nummer Facturatie" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect1">BTW tarief</label>
-        <select class="form-control" id="exampleFormControlSelect1" required>
+        <select class="form-control" id="exampleFormControlSelect1"  name="BTW tarief Facturatie" required>
           <option value="" selected disabled hidden>Kies hier</option>
           <option value="6%">6%</option>
           <option value="12%">12%</option>
@@ -341,13 +341,13 @@
           <br>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="Factuur per mail" id="exampleRadios5" value="Ja" required>
+          <input class="form-check-input" type="radio" name="Factuur per mail" id="exampleRadios5" value="Ja" name="Factuur per mail" required>
           <label class="form-check-label" for="exampleRadios5">
             Ja
           </label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="Factuur per mail" id="exampleRadios6" value="Nee" required>
+          <input class="form-check-input" type="radio" name="Factuur per mail" id="exampleRadios6" value="Nee" name="Factuur per mail" required>
           <label class="form-check-label" for="exampleRadios6">
             Nee
           </label>
@@ -374,14 +374,14 @@
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Adres *</label>
         <input type="text" class="form-control" name="workAddress" id="exampleInputPassword1"
-          placeholder="Straat, huisnummer, gemeente en postcode" value="" required>
+          placeholder="Straat, huisnummer, gemeente en postcode" value="" name="Adres Interventie" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Naam contactpersoon ter plaatse *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en naam" value=""
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Voornaam en achternaam" value="" name="Naam Contactpersoon ter plaatse" 
           required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
@@ -389,7 +389,7 @@
       </div>
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Telefoon/GSM contactpersoon ter plaatse *</label>
-        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value=""
+        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Telefoon of gsm nummer" value="" name="Telefoon Contactpersoon ter plaatse"
           required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
@@ -404,19 +404,19 @@
       <div class="form-group validate-me">
         <label for="exampleInputPassword1">Merk van de zonnewering *</label>
         <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Merk van de zonnewering"
-          value="" required>
+          value=""  name="Merk zonnewering" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Toelichting over de gevraagde interventie</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" value=""  name="Toelichting interventie"></textarea>
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect1">Bereikbaarheid: Hoe kunnen onze technici bij de zonwering
           geraken?</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control" id="exampleFormControlSelect1" name="Bereikbaarheid">
           <option value="" selected disabled hidden>Kies hier</option>
           <option value="Gelijkvloers / Terras (evt met kleine trapladder">Gelijkvloers / Terras (evt met kleine
             trapladder)</option>
@@ -443,7 +443,7 @@
           <br>
         </h2>
       </div>
-      <button type="submit" class="btn btn-primary">Verzend</button>
+      <button type="submit" class="btn btn-primary" value="Send">Verzend</button>
       <div class="largebreak">
         <br>
       </div>
