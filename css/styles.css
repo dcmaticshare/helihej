@@ -74,7 +74,7 @@ a:hover {
   margin-top: 1em;
   margin-bottom: 2em;
   padding-bottom: 1em;
-  border-bottom: 2px solid #e59b1a;
+  border-bottom: 2.5px solid #e59b1a;
 }
 
 @media (min-width: 992px) {
@@ -301,11 +301,11 @@ a:hover {
 
 .form-group label {
   color:#6d6d70;
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
 }
 
 .form-control {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "HelveticaNeue-Roman";
   line-height: 2;
   color: #6d6d70 !important;
