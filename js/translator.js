@@ -3,17 +3,22 @@ var dictionary = {
     'nl': 'Adres *',
     'fr': 'Adresse *',
   },
+  'algemenevoorwaarden': {
+    'nl': 'algemene voorwaarden',
+    'fr': 'conditions générales',
+  },
+  
   'banner1': {
-    'nl': 'Dimitri is een speciaal man',
-    'fr': 'Dimitri est un homme spécial',
+    'nl': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    'fr': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
   },
   'banner2': {
-    'nl': 'Iedereen vraagt zich af wat hij eigenlijk doet op zijn werk',
-    'fr': 'Tout le monde se demande ce qu\'il fait réellement au travail',
+    'nl': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    'fr': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
   },
   'banner3': {
-    'nl': 'Maar niemand durft er iets van zeggen',
-    'fr': 'Mais personne n\'ose rien en dire',
+    'nl': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    'fr': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
   },
   'bedrijf': {
     'nl': 'Bedrijf',
@@ -48,6 +53,10 @@ var dictionary = {
     'nl': 'Factuur ontvangen per mail *',
     'fr': 'Facture reçevoir par e-mail *',
   },
+  'garantie': {
+    'nl': 'Garantie - VP/VK - of factuurnummer:',
+    'fr': 'Garantie - VP/VK - ou numéro de facturation:',
+  },
   'gelijkvloers': {
     'nl': 'Gelijkvloers / Terras (evt met kleine trapladder)',
     'fr': 'Rez-de-chaussée / terrasse (éventuellement avec petit escabeau)',
@@ -56,10 +65,18 @@ var dictionary = {
     'nl': 'Gevelinstallatie',
     'fr': 'Installation de façade',
   },
+  'gewensteuitvoering': {
+    'nl': 'Gewenste uitvoering *',
+    'fr': 'Version souhaitée *',
+  },
   
+  'helioscreentarieven': {
+    'nl': 'Helioscreen tarieven',
+    'fr': 'taux d\'hélioscreen',
+  },
   'herstelling': {
     'nl': 'Herstelling',
-    'fr': 'Réparer',
+    'fr': 'Réparation',
   },
   'herstellingaanvragen': {
     'nl': 'Herstelling aanvragen',
@@ -82,6 +99,11 @@ var dictionary = {
     'nl': 'Ik weet het niet',
     'fr': 'Je ne sais pas',
   },
+  'inregie': {
+    'nl': 'In regie (verkennende interventie - indien nodig - is steeds betalend)',
+    'fr': 'En contrôle (intervention exploratoire - si nécessaire - est toujours facturée)',
+  },
+  
   'interventieadres': {
     'nl': 'Interventieadres',
     'fr': 'Adresse d\'intervention',
@@ -96,6 +118,11 @@ var dictionary = {
     'nl': 'Ja',
     'fr': 'Oui',
   },
+  'kennisvoorwaarden': {
+    'nl': 'Ja, ik heb kennis genomen van de&nbsp;',
+    'fr': 'Oui, j\'ai lu les&nbsp;',
+  },
+  
   'kieshier': {
     'nl': 'Kies hier',
     'fr': 'Choisissez ici',
@@ -126,6 +153,11 @@ var dictionary = {
     'nl': 'Nee',
     'fr': 'Non',
   },
+  'offerte': {
+    'nl': 'Offerte (verkennende interventie voor opmaak offerte is steeds betalend)',
+    'fr': 'Devis (l\'intervention exploratoire pour l\'établissement du devis est toujours facturée)',
+  },
+  
   'omschrijvingdefect': {
     'nl': 'Omschrijving defect',
     'fr': 'Description du défaut',
@@ -178,10 +210,18 @@ var dictionary = {
     'nl': 'Voeg foto\s/documenten toe',
     'fr': 'Ajouter des photos / documents',
   },
+  'volgensonderhoud': {
+    'nl': 'Volgens onderhoudscontract - Referentie:',
+    'fr': 'Selon contrat de maintenance - Référence:',
+  },
   
   'voorschriften': {
     'nl': 'Voorschriften',
     'fr': 'Réglementations',
+  },
+  'voorwaarden': {
+    'nl': 'Voorwaarden',
+    'fr': 'Les conditions',
   }
 };
 var langs = ['nl', 'fr'];
