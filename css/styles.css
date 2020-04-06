@@ -41,6 +41,15 @@ a:hover {
   color: #e59b1a;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #e59b1a;
+}
+
+.smallInput {
+  width: 260px;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -304,6 +313,11 @@ a:hover {
   font-size: 1.2rem !important;
 }
 
+.form-check-label {
+  color:#6d6d70;
+  font-size: 1.2rem !important;
+}
+
 .form-control {
   font-size: 1rem;
   font-family: "HelveticaNeue-Roman";
@@ -316,6 +330,10 @@ a:hover {
 .form-control::placeholder{
   color: #9a9a9a !important;
   
+}
+
+.form-check-label {
+  margin-left: 0.5em;
 }
 
 
@@ -484,5 +502,9 @@ a:hover {
   margin: 0  !important;
   display: table-cell;
   vertical-align: middle;
+}
+
+.formAnchor {
+  font-size: 1.2rem !important;
 }
 
