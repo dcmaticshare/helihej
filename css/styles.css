@@ -1,11 +1,13 @@
 html {
   font-size: 100%;
 }
+
 body {
   font-family: 'HelveticaNeue-Roman';
   font-weight: 500;
   font-style: normal;
   color: #6d6d70;
+  line-height: 1.7rem;
 }
 
 h1 {
@@ -41,13 +43,45 @@ a:hover {
   color: #e59b1a;
 }
 
+.leftAlign {
+  text-align: left !important;
+}
+
+.rightAlign {
+  text-align: right !important;
+}
+
 .underline {
   text-decoration: underline;
   text-decoration-color: #e59b1a;
 }
 
+.noLeftPadding {
+  padding-left: 0 !important;
+}
+
+.noRightPadding {
+  padding-right: 0 !important;
+}
+
+.noLeftMargin {
+  margin-left: 0;
+}
+
+.noRightMargin {
+  margin-left: 0;
+}
+
 .smallInput {
   width: 260px;
+}
+
+.noMarginBottom {
+  margin-bottom: 0 !important;
+}
+
+.smallMarginBottom {
+  margin-bottom: 0.5em !important;
 }
 
 .uppercase {
@@ -78,12 +112,15 @@ a:hover {
   height: 1.8rem;
 }
 
-.body-H2 {
-  text-align: center;
+.form-H2 {
+  text-align: left;
   margin-top: 1em;
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  border-bottom: 2.5px solid #e59b1a;
+  margin-bottom: 1em;
+  padding-bottom: 0em;
+  padding-left: 0;
+  border-bottom: 2px solid #e59b1a;
+  font-size: 1.6em;
+  width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -127,12 +164,23 @@ a:hover {
   }
 
   .formPadding {
-    
-    width: 58%;
+
+    width: 64%;
     margin-left: auto;
     margin-right: auto;
-  
+
   }
+
+  form label {
+    text-align: right;
+    padding-right: 1em;
+  }
+
+  .formCenterContent label {
+    text-align: right;
+
+  }
+
 
 }
 
@@ -170,13 +218,20 @@ a:hover {
   }
 
   .formPadding {
-    
+
     width: auto;
     margin-left: 2em;
     margin-right: 2em;
-  
+
   }
 
+  form label {
+    text-align: left;
+  }
+
+  .formCenterContent label {
+    text-align: left;
+  }
 }
 
 
@@ -294,8 +349,7 @@ a:hover {
   position: absolute;
   top: 390px;
   left: 50%;
-  transform: translate(-50%,0)
-  
+  transform: translate(-50%, 0)
 }
 
 .carousel-item-button a {
@@ -304,22 +358,84 @@ a:hover {
 
 .form-group {
 
-  margin-bottom: 2em;
+  margin-bottom: 1.3em;
 }
 
 
 .form-group label {
-  color:#6d6d70;
-  font-size: 1.2rem !important;
+  color: #6d6d70;
+  font-size: 0.8rem !important;
 }
 
 .form-check-label {
-  color:#6d6d70;
-  font-size: 1.2rem !important;
+  color: #6d6d70;
+  font-size: 0.8rem !important;
+}
+
+.form-check-label.leftAlign.leftAlignMargin {
+  margin-left: 3em;
+}
+
+
+.formAnchor {
+  font-size: 0.8rem !important;
+}
+
+.form-check.left-check {
+  display: flex;
+
+}
+
+.form-check.right-radio {
+  padding-left: 20px;
+
+}
+
+.right-radio label {
+  padding-left: 15px;
+}
+
+.right-radio .smallInput {
+  margin-left: 15px;
+}
+
+.form-control-file {
+  font-size: 0.8rem !important;
+  padding-left: 0;
+}
+
+.left-check .form-check-input {
+  right: 0;
+  margin-left: 0px;
+  margin-right: 25px;
+}
+
+
+.left-check .form-check-label {
+
+  padding-left: 0px;
+
+}
+
+.formCenterContent {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.formCenterContentCheck {
+  height: 30px;
+  display: flex;
+  width: 100%;
+}
+
+.formCenterContent label {
+  margin-bottom: 0 !important;
+  width: 100%;
 }
 
 .form-control {
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-family: "HelveticaNeue-Roman";
   line-height: 2;
   color: #6d6d70 !important;
@@ -327,13 +443,50 @@ a:hover {
   background-color: #fff !important;
 }
 
-.form-control::placeholder{
-  color: #9a9a9a !important;
-  
-}
 
 .form-check-label {
-  margin-left: 0.5em;
+  margin-left: 0em;
+}
+
+.form-check {
+  padding-left: 0;
+  height: 30px;
+  margin-bottom: 1em;
+}
+
+.invalid-feedback {
+  text-align: right;
+}
+
+.invalid-feedback-radio {
+  display: none;
+  width: 200px;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+  text-align: left;
+  max-width: 200%;
+  padding-left: 0;
+}
+
+.invalid-feedback-conditions {
+  
+  max-width: 200%;
+  margin-left: 160px;
+  margin-top: 7px;
+}
+
+.form-group.boolCheck.needsSmallMargin.was-validated {
+  margin-bottom: 1.5em;
+}
+
+.form-group.boolCheck.needsSmallMargin {
+  margin-bottom: 0.5em;
+}
+
+
+.was-validated :invalid~.invalid-feedback-radio {
+  display: flex;
 }
 
 
@@ -489,22 +642,17 @@ a:hover {
   height: 300px;
   line-height: 100px;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   left: 50%;
   display: table;
 }
 
-.carousel-title > h1 {
+.carousel-title>h1 {
   color: rgba(255, 255, 255, 0.94);
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  margin: 0  !important;
+  margin: 0 !important;
   display: table-cell;
   vertical-align: middle;
 }
-
-.formAnchor {
-  font-size: 1.2rem !important;
-}
-
