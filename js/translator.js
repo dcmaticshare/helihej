@@ -33,8 +33,8 @@ var dictionary = {
     'fr': 'Numéro de TVA *',
   },
   'btwtarief': {
-    'nl': 'BTW tarief',
-    'fr': 'Taux de TVA',
+    'nl': 'BTW tarief *',
+    'fr': 'Taux de TVA *',
   },
   'contact': {
     'nl': 'Contact',
