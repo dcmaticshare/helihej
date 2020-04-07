@@ -12,7 +12,7 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css?v=14">
+  <link rel="stylesheet" href="css/styles.css?v=15">
 
 </head>
 
@@ -198,7 +198,7 @@
       <h2 class="">
         <br>
       </h2>
-      <!-- <h2 class="body-H2" data-translate="contactgegevens">
+      <!-- <h2 class="form-H2" data-translate="contactgegevens">
         Contactgegevens
       </h2>
       <div class="form-group validate-me">
@@ -254,81 +254,122 @@
       <div class="largebreak">
         <br>
       </div> -->
-      <h2 class="body-H2" data-translate="facturatiegegevens">
-        Facturatiegegevens
-      </h2>
-      <div class="form-group">
-        <label for="exampleInputPassword1" data-translate="klantnummer">Klantnummer</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" value="" name="Klantnummer"
-          required>
+      <div class="row">
+        <h2 class="form-H2 col-sm-12" data-translate="facturatiegegevens">
+          Facturatiegegevens
+        </h2>
+      </div>
+
+      <div class="form-group row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="klantnummer">Klantnummer</label>
+        </div>
+        <input type="text" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
+          name="Klantnummer">
+        <div class="invalid-feedback" data-translate="veldError">
+          Veld niet correct ingevuld
+        </div>
+
+      </div>
+      <div class="form-group row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="bedrijf">Bedrijf</label>
+        </div>
+        <input type="text" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
+          name="Bedrijf">
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1" data-translate="bedrijf">Bedrijf</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" value="" name="Bedrijf"
-          required>
+      <div class="form-group boolCheck needsSmallMargin validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputEmail1" data-translate="ikhebeenonderhoudscontract">Ik heb
+            een onderhoudscontract
+            *</label>
+        </div>
+
+        <div class="form-check form-check col-sm-2">
+          <input class="form-check-input noLeftMargin" type="radio" name="Onderhoudscontract" id="exampleRadios3"
+            value="Ja" required>
+          <div class="formCenterContent">
+            <label class="form-check-label leftAlign leftAlignMargin" for="exampleRadios3" data-translate="ja">
+              Ja
+            </label>
+          </div>
+          <div class="invalid-feedback-radio col-sm-12 " data-translate="veldError" for="exampleRadios3">
+            Veld niet correct ingevuld
+
+          </div>
+
+        </div>
+        <div class="form-check form-check  col-sm-2">
+          <input class="form-check-input noLeftMargin" type="radio" name="Onderhoudscontract" id="exampleRadios4"
+            value="Nee" required>
+          <div class="formCenterContent">
+            <label class="form-check-label leftAlign leftAlignMargin" for="exampleRadios4" data-translate="nee">
+              Nee
+            </label>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="adres*">Adres *</label>
+        </div>
+
+        <input type="text" class="form-control col-sm-12 col-md-8" name="billingAddress" id="exampleInputPassword1"
+          placeholder="" value="" name="Facturatie Adres" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputEmail1" data-translate="ikhebeenonderhoudscontract">Ik heb een onderhoudscontract
-          *</label>
-        <div class="smallbreak">
-          <br>
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="tel*">Telefoon/GSM *</label>
         </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="Onderhoudscontract" id="exampleRadios3" value="Ja"
-            required>
-          <label class="form-check-label" for="exampleRadios3" data-translate="ja">
-            Ja
-          </label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="Onderhoudscontract" id="exampleRadios4" value="Nee"
-            required>
-          <label class="form-check-label" for="exampleRadios4" data-translate="nee">
-            Nee
-          </label>
-        </div>
-      </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputPassword1" data-translate="adres*">Adres *</label>
-        <input type="text" class="form-control" name="billingAddress" id="exampleInputPassword1" placeholder="" value=""
-          name="Facturatie Adres" required>
-        <div class="invalid-feedback" data-translate="veldError">
-          Veld niet correct ingevuld
-        </div>
-      </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputPassword1" data-translate="tel*">Telefoon/GSM *</label>
-        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="" value=""
+        <input type="tel" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
           name="Telefoon Facturatie" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputPassword1">E-mail *</label>
-        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="" value=""
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1">E-mail *</label>
+        </div>
+
+        <input type="email" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
           name="Email Facturatie" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputPassword1" data-translate="btwnr*">BTW nummer *</label>
-        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="" value=""
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="btwnr*">BTW nummer *</label>
+        </div>
+        <input type="number" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
           name="BTW nummer Facturatie" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1" data-translate="btwtarief">BTW tarief</label>
-        <select class="form-control" id="exampleFormControlSelect1" name="BTW tarief Facturatie" required>
+      <div class="form-group row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleFormControlSelect1" data-translate="btwtarief">BTW
+            tarief</label>
+        </div>
+
+        <select class="form-control col-sm-12 col-md-8" id="exampleFormControlSelect1" name="BTW tarief Facturatie"
+          required>
           <option value="" selected disabled hidden data-translate="kieshier">Kies hier</option>
           <option value="6%">6%</option>
           <option value="12%">12%</option>
@@ -340,104 +381,151 @@
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputEmail1" data-translate="factuurontvangenpermail">Factuur ontvangen per mail *</label>
-        <div class="smallbreak">
-          <br>
+      <div class="form-group noMarginBottom validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputEmail1" data-translate="factuurontvangenpermail">Factuur
+            ontvangen per mail *</label>
         </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="Factuur per mail" id="exampleRadios5" value="Ja"
-            name="Factuur per mail" required>
-          <label class="form-check-label" for="exampleRadios5" data-translate="ja">
-            Ja
-          </label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="Factuur per mail" id="exampleRadios6" value="Nee"
-            name="Factuur per mail" required>
-          <label class="form-check-label" for="exampleRadios6" data-translate="nee">
-            Nee
-          </label>
+        <div class="form-check form-check col-sm-2">
+          <input class="form-check-input noLeftMargin" type="radio" name="Factuur per mail" id="exampleRadios5"
+            value="Ja" name="Factuur per mail" required>
+          <div class="formCenterContent">
+            <label class="form-check-label leftAlign leftAlignMargin" for="exampleRadios5" data-translate="ja">
+              Ja
+            </label>
+          </div>
+          <div class="invalid-feedback-radio col-sm-12 " data-translate="veldError" for="exampleRadios6">
+            Veld niet correct ingevuld
+          </div>
 
         </div>
+        <div class="form-check form-check  col-sm-2">
+          <input class="form-check-input noLeftMargin" type="radio" name="Factuur per mail" id="exampleRadios6"
+            value="Nee" name="Factuur per mail" required>
+          <div class="formCenterContent">
+            <label class="form-check-label leftAlign leftAlignMargin" for="exampleRadios6" data-translate="nee">
+              Nee
+            </label>
+          </div>
+
+
+        </div>
+
 
       </div>
 
-      <div class="largebreak">
-        <br>
+      <div class="row">
+        <h2 class="form-H2 col-sm-12" data-translate="interventieadres">
+          Interventieadres
+        </h2>
       </div>
-      <h2 class="body-H2" data-translate="interventieadres">
-        Interventieadres
-      </h2>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="sameAddressCheck" id="exampleCheck1"
-          onclick="FillBilling(this.form)">
-        <label class="form-check-label" for="exampleCheck1" data-translate="interventieadreszelfde">Het interventieadres
+
+      <div class="form-check left-check row">
+        <div class=" col-sm-12 col-md-4">
+          <input type="checkbox" class="form-check-input" name="sameAddressCheck" id="exampleCheck1"
+            onclick="FillBilling(this.form)">
+
+        </div>
+
+        <label class="form-check-label col-sm-12 col-md-8 leftAlign" for="exampleCheck1"
+          data-translate="interventieadreszelfde">Het
+          interventieadres
           is hetzelfde als het
           facturatieadres</label>
+
       </div>
-      <div class="largebreak">
-        <br>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1" data-translate="bedrijf">Bedrijf</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" value=""
-          name="Bedrijf interventieadres" required>
+
+      <div class="form-group row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="bedrijf">Bedrijf</label>
+        </div>
+
+        <input type="text" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
+          name="Bedrijf interventieadres">
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputPassword1" data-translate="adres*">Adres *</label>
-        <input type="text" class="form-control" name="workAddress" id="exampleInputPassword1" placeholder="" value=""
-          name="Adres Interventie" required>
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="adres*">Adres *</label>
+        </div>
+
+        <input type="text" class="form-control col-sm-12 col-md-8" name="workAddress" id="exampleInputPassword1"
+          placeholder="" value="" name="Adres Interventie" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputPassword1" data-translate="naamcontactterplaatse*">Naam contactpersoon ter plaatse
-          *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" value=""
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="naamcontactterplaatse*">Naam
+            contactpersoon ter plaatse
+            *</label>
+        </div>
+
+        <input type="text" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
           name="Naam Contactpersoon ter plaatse" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputPassword1" data-translate="telcontactterplaatse*">Telefoon/GSM contactpersoon ter
-          plaatse *</label>
-        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="" value=""
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="telcontactterplaatse*">Telefoon/GSM contactpersoon ter
+            plaatse *</label>
+        </div>
+
+        <input type="tel" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
           name="Telefoon Contactpersoon ter plaatse" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="largebreak">
-        <br>
+
+      <div class="row">
+        <h2 class="form-H2" data-translate="omschrijvingdefect">
+          Omschrijving defect
+        </h2>
       </div>
-      <h2 class="body-H2" data-translate="omschrijvingdefect">
-        Omschrijving defect
-      </h2>
-      <div class="form-group validate-me">
-        <label for="exampleInputPassword1" data-translate="merkzonnewering">Merk van de zonwering *</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" value=""
+
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputPassword1" data-translate="merkzonnewering">Merk van de
+            zonwering *</label>
+        </div>
+
+        <input type="text" class="form-control col-sm-12 col-md-8" id="exampleInputPassword1" placeholder="" value=""
           name="Merk zonnewering" required>
         <div class="invalid-feedback" data-translate="veldError">
           Veld niet correct ingevuld
         </div>
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1" data-translate="toelichtinginterventie">Toelichting over de gevraagde
-          interventie</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" value=""
+      <div class="form-group row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleFormControlTextarea1" data-translate="toelichtinginterventie">Toelichting over de gevraagde
+            interventie</label>
+        </div>
+
+        <textarea class="form-control col-sm-12 col-md-8" id="exampleFormControlTextarea1" rows="3" value=""
           name="Toelichting interventie"></textarea>
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1" data-translate="bereikbaarheidzonwering">Bereikbaarheid: Hoe kunnen onze
-          technici bij de zonwering
-          geraken?</label>
-        <select class="form-control" id="exampleFormControlSelect1" name="Bereikbaarheid">
+      <div class="smallbreak">
+        <br>
+      </div>
+
+      <div class="largebreak">
+        <br>
+      </div>
+      <div class="form-group row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleFormControlSelect1" data-translate="bereikbaarheidzonwering">Bereikbaarheid: Hoe kunnen
+            onze
+            technici bij de zonwering
+            geraken?</label>
+        </div>
+
+        <select class="form-control col-sm-12 col-md-8" id="exampleFormControlSelect1" name="Bereikbaarheid">
           <option value="" selected disabled hidden data-translate="kieshier">Kies hier</option>
           <option value="Gelijkvloers / Terras (evt met kleine trapladder" data-translate="gelijkvloers">Gelijkvloers /
             Terras (evt met kleine
@@ -446,99 +534,156 @@
           <option value="Gevelinstallatie" data-translate="gevelinstallatie">Gevelinstallatie</option>
         </select>
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlFile1" data-translate="voegfotostoe">Voeg foto's / documenten toe *</label>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        <h2 class="mediumbreak">
-          <br>
-        </h2>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        <h2 class="mediumbreak">
-          <br>
-        </h2>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        <h2 class="mediumbreak">
-          <br>
-        </h2>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        <h2 class="mediumbreak">
-          <br>
-        </h2>
+      <div class="smallbreak">
+        <br>
       </div>
+
       <div class="largebreak">
         <br>
       </div>
-      <h2 class="body-H2" data-translate="voorwaarden">
-        Voorwaarden
-      </h2>
-      <div class="form-check validate-me">
-        <input type="checkbox" class="form-check-input" name="Kennisgenomen met voorwaarden" id="exampleCheck2"
-          value="Ja" required>
-        <label class="form-check-label" for="exampleCheck2" data-translate="kennisvoorwaarden">Ja, ik heb kennis genomen
-          van de </label><a class="underline formAnchor" href="#" data-translate="algemenevoorwaarden">algemene
-          voorwaarden</a><label>&nbsp;*</label>
-      </div>
-      <div class="largebreak">
-        <br>
-      </div>
-      <div class="form-check validate-me">
-        <input type="checkbox" class="form-check-input" name="Kennisgenomen met tarieven" id="exampleCheck3" value="Ja"
-          required>
-        <label class="form-check-label" for="exampleCheck3" data-translate="kennisvoorwaarden">Ja, ik heb kennis genomen
-          van de </label><a class="underline formAnchor" href="#" data-translate="helioscreentarieven">Helioscreen
-          tarieven</a><label>&nbsp;*</label>
-      </div>
-      <div class="largebreak">
-        <br>
-      </div>
-      <div class="largebreak">
-        <br>
-      </div>
-      <div class="form-group validate-me">
-        <label for="exampleInputEmail1" data-translate="gewensteuitvoering">Gewenste uitvoering *</label>
-        <div class="smallbreak">
-          <br>
+      <div class="form-group row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleFormControlFile1" data-translate="voegfotostoe">Voeg foto's /
+            documenten toe *</label>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Gewenste uitvoering" id="exampleRadios7" value="Volgens onderhoudscontract" required>
-          <label class="form-check-label" for="exampleRadios7" data-translate="volgensonderhoud">
+
+        <input type="file" class="form-control-file col-sm-12 col-md-8" id="exampleFormControlFile1">
+        <h2 class="mediumbreak col-sm-12">
+          <br>
+        </h2>
+        <div class="col-sm-0 col-md-4"></div>
+        <input type="file" class="form-control-file col-sm-12 col-md-8" id="exampleFormControlFile1">
+        <h2 class="mediumbreak col-sm-12">
+          <br>
+        </h2>
+        <div class="col-sm-0 col-md-4"></div>
+        <input type="file" class="form-control-file col-sm-12 col-md-8" id="exampleFormControlFile1">
+        <h2 class="mediumbreak col-sm-12">
+          <br>
+        </h2>
+        <div class="col-sm-0 col-md-4"></div>
+        <input type="file" class="form-control-file col-sm-12 col-md-8" id="exampleFormControlFile1">
+
+      </div>
+
+      <div class="row">
+        <h2 class="form-H2" data-translate="voorwaarden">
+          Voorwaarden
+        </h2>
+      </div>
+
+      <div class="form-check left-check validate-me row">
+
+        <div class=" col-sm-12 col-md-4">
+          <input type="checkbox" class="form-check-input" name="Kennisgenomen met voorwaarden" id="exampleCheck2"
+            value="Ja" required>
+
+          <div class="smallbreak invalid-feedback col-sm-12">
+            <br>
+          </div>
+
+          <div class="invalid-feedback invalid-feedback-conditions" data-translate="veldError">
+            Veld niet correct ingevuld
+
+          </div>
+
+        </div>
+        <div class=" col-sm-12 col-md-8 noLeftPadding">
+          <label class="form-check-label leftAlign noRightPadding" for="exampleCheck2"
+            data-translate="kennisvoorwaarden">Ja, ik heb
+            kennis genomen
+            van de </label><a class="underline formAnchor leftAlign noLeftPadding" href="#"
+            data-translate="algemenevoorwaarden">algemene
+            voorwaarden</a><label>&nbsp;*</label>
+        </div>
+
+      </div>
+      <div class="form-check left-check validate-me row">
+
+        <div class=" col-sm-12 col-md-4">
+          <input type="checkbox" class="form-check-input" name="Kennisgenomen met tarieven" id="exampleCheck3"
+            value="Ja" required>
+
+            <div class="smallbreak invalid-feedback col-sm-12">
+              <br>
+            </div>
+  
+            <div class="invalid-feedback invalid-feedback-conditions" data-translate="veldError">
+              Veld niet correct ingevuld
+  
+            </div>
+        </div>
+        
+        
+
+        <div class=" col-sm-12 col-md-8 noLeftPadding">
+          <label class="form-check-label leftAlign noRightPadding" for="exampleCheck3"
+            data-translate="kennisvoorwaarden">Ja, ik heb kennis genomen
+            van de </label><a class="underline formAnchor leftAlign noLeftPadding" href="#"
+            data-translate="helioscreentarieven">Helioscreen
+            tarieven</a><label>&nbsp;*</label>
+        </div>
+      </div>
+
+      <div class="largebreak">
+        <br>
+      </div>
+      <div class="form-group validate-me row">
+        <div class="formCenterContent col-sm-12 col-md-4">
+          <label for="exampleInputEmail1" data-translate="gewensteuitvoering">Gewenste
+            uitvoering *</label>
+        </div>
+
+        <div class="form-check col-sm-12 col-md-8 right-radio">
+          <input class="form-check-input " type="radio" name="Gewenste uitvoering" id="exampleRadios7"
+            value="Volgens onderhoudscontract" required>
+          <label class="form-check-label leftAlign" for="exampleRadios7" data-translate="volgensonderhoud">
             Volgens onderhoudscontract
           </label>
           <input type="text" class="form-control smallInput" id="exampleInputPassword1" placeholder="" value=""
-              name="Onderhoudscontract" required>
+            name="Onderhoudscontract">
         </div>
-        <div class="smallbreak">
+        <div class="largebreak col-sm-12">
           <br>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Gewenste uitvoering" id="exampleRadios8" value="In regie" required>
-          <label class="form-check-label" for="exampleRadios8" data-translate="inregie">
+        <div class="col-sm-0 col-md-4"></div>
+        <div class="form-check col-sm-12 col-md-8 right-radio">
+          <input class="form-check-input" type="radio" name="Gewenste uitvoering" id="exampleRadios8" value="In regie"
+            required>
+          <label class="form-check-label leftAlign" for="exampleRadios8" data-translate="inregie">
             In regie (verkennende interventie - indien nodig- is steeds betalend)
           </label>
         </div>
-        <div class="smallbreak">
+        <div class="smallbreak col-sm-12">
           <br>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Gewenste uitvoering" id="exampleRadios9" value="Offerte" required>
-          <label class="form-check-label" for="exampleRadios9" data-translate="offerte">
+        <div class="col-sm-0 col-md-4"></div>
+        <div class="form-check col-sm-12 col-md-8 right-radio">
+          <input class="form-check-input" type="radio" name="Gewenste uitvoering" id="exampleRadios9" value="Offerte"
+            required>
+          <label class="form-check-label leftAlign" for="exampleRadios9" data-translate="offerte">
             Offerte (verkennende interventie voor opmaak offerte is steeds betalend)
           </label>
         </div>
-        <div class="smallbreak">
+        <div class="smallbreak col-sm-12">
           <br>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Gewenste uitvoering" id="exampleRadios10" value="Garantie" required>
-          <label class="form-check-label" for="exampleRadios10" data-translate="garantie">
+        <div class="col-sm-0 col-md-4"></div>
+        <div class="form-check col-sm-12 col-md-8 right-radio">
+          <input class="form-check-input" type="radio" name="Gewenste uitvoering" id="exampleRadios10" value="Garantie"
+            required>
+          <label class="form-check-label leftAlign" for="exampleRadios10" data-translate="garantie">
             Garantie - VP/VK - of factuurnummer:
           </label>
           <input type="text" class="form-control smallInput" id="exampleInputPassword1" placeholder="" value=""
-              name="Garantie nummer" required>
+            name="Garantie nummer">
         </div>
 
       </div>
       <div class="largebreak">
+        <br>
+      </div>
+      <div class="mediumbreak">
         <br>
       </div>
       <button type="submit" class="btn btn-primary" value="Send" data-translate="verzend">Verzend</button>
@@ -587,7 +732,7 @@
     })();
   </script>
   <!-- Extra Javascript -->
-  <script src="js/translator.js?v=7"></script>
+  <script src="js/translator.js?v=8"></script>
   <script src="js/fillBilling.js?v=1"></script>
 
   <!-- Smooth scrolling in IE -->
