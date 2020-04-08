@@ -20,6 +20,11 @@ var dictionary = {
     'nl': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     'fr': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
   },
+  'bannerRepair': {
+    'nl': 'Aanvraag herstelling',
+    'fr': 'Demander réparation',
+  },
+  
   'bedrijf': {
     'nl': 'Bedrijf',
     'fr': 'Entreprise',
@@ -216,8 +221,8 @@ var dictionary = {
     'fr': 'Ajouter des photos / documents',
   },
   'volgensonderhoud': {
-    'nl': 'Volgens onderhoudscontract - Referentie:',
-    'fr': 'Selon contrat de maintenance - Référence:',
+    'nl': 'Volgens onderhoudscontract - Ref.:',
+    'fr': 'Selon contrat de maintenance - Réf.:',
   },
   
   'voorschriften': {
