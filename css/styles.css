@@ -241,6 +241,13 @@ a:hover {
   .formCenterContent label {
     text-align: left;
   }
+
+  .navbar {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1em;
+  }
 }
 
 
@@ -356,9 +363,10 @@ a:hover {
 
 .carousel-item-button {
   position: absolute;
-  top: 390px;
+  top: 375px;
   left: 50%;
-  transform: translate(-50%, 0)
+  transform: translate(-50%, 0);
+  width: 200px;
 }
 
 .carousel-item-button a {
@@ -522,6 +530,9 @@ a:hover {
 .was-validated :invalid~.invalid-feedback-radio {
   display: flex;
 }
+
+
+
 
 
 /* Custom CSS */
@@ -700,9 +711,6 @@ form .col-1 {
   padding-right: 0;
 }
 
-form .col-sm-12 {
-  padding-left: 0 !important;
-}
 
 form .col-sm-12.normalPadding {
   padding-left: 20px !important;
