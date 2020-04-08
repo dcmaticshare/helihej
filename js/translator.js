@@ -25,8 +25,8 @@ var dictionary = {
     'fr': 'Entreprise',
   },
   'bereikbaarheidzonwering': {
-    'nl': 'Bereikbaarheid: Hoe kunnen onze technici bij de zonwering geraken?',
-    'fr': 'Accessibilité: comment nos techniciens peuvent-ils accéder à l\'auvent?',
+    'nl': 'Bereikbaarheid',
+    'fr': 'Accessibilité',
   },
   'btwnr*': {
     'nl': 'BTW nummer *',
@@ -99,6 +99,11 @@ var dictionary = {
     'nl': 'Ik weet het niet',
     'fr': 'Je ne sais pas',
   },
+  'ikwileenonderhoudscontract': {
+    'nl': 'Ik wil graag een onderhoudscontract',
+    'fr': 'Je voudrai un contrat de maintenance',
+  },
+  
   'inregie': {
     'nl': 'In regie (verkennende interventie - indien nodig - is steeds betalend)',
     'fr': 'En contrôle (intervention exploratoire - si nécessaire - est toujours facturée)',
@@ -136,8 +141,8 @@ var dictionary = {
     'nl': 'Medecontractant',
     'fr': 'Co-contractant',
   },
-  'merkzonnewering': {
-    'nl': 'Merk van de zonnewering *',
+  'merkzonwering': {
+    'nl': 'Merk van de zonwering *',
     'fr': 'Marque de l\'auvent *',
   },
   'naam*': {
