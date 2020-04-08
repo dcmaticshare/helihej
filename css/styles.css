@@ -112,6 +112,15 @@ a:hover {
   height: 1.8rem;
 }
 
+.needsDisplayHidden {
+  display: none;
+}
+
+.needsDisplayDefault {
+  display: flex;
+}
+
+
 .form-H2 {
   text-align: left;
   margin-top: 1em;
@@ -404,10 +413,20 @@ a:hover {
   padding-left: 0;
 }
 
-.left-check .form-check-input {
-  right: 0;
-  margin-left: 0px;
-  margin-right: 25px;
+@media (max-width: 767px) {
+  .left-check .form-check-input {
+    left: 0;
+    margin-left: 0px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .left-check .form-check-input {
+    right: 0;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
 }
 
 
@@ -470,7 +489,7 @@ a:hover {
 }
 
 .invalid-feedback-conditions {
-  
+
   max-width: 200%;
   margin-left: 160px;
   margin-top: 7px;
@@ -655,4 +674,76 @@ a:hover {
   margin: 0 !important;
   display: table-cell;
   vertical-align: middle;
+}
+
+#form2 {
+  display: none;
+}
+
+form .col-1 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+form .col-sm-12 {
+  padding-left: 0 !important;
+}
+
+form .col-sm-12.normalPadding {
+  padding-left: 20px !important;
+}
+
+
+@media (max-width: 392px) {
+  .smallLineHeight {
+    line-height: 1rem;
+  }
+}
+
+@media (min-width: 393px) {
+  .smallLineHeight {
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: 423px) {
+  .smallLineHeight2 {
+    line-height: 1rem;
+  }
+}
+
+@media (min-width: 405px) {
+  .smallLineHeight3 {
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: 404px) {
+  .smallLineHeight3 {
+    line-height: 1rem;
+  }
+}
+
+@media (min-width: 473px) {
+  .smallLineHeight4 {
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: 472px) {
+  .smallLineHeight4 {
+    line-height: 1rem;
+  }
+}
+
+@media (min-width: 497px) {
+  .smallLineHeight5 {
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: 496px) {
+  .smallLineHeight5 {
+    line-height: 1rem;
+  }
 }
