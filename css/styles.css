@@ -158,6 +158,10 @@ a:hover {
     height: 600px;
   }
 
+  .bannerSecondary {
+    height: 400px;
+  }
+
   .carousel-item-button {
     visibility: hidden;
     height: 0px;
@@ -165,6 +169,10 @@ a:hover {
 
   .carousel-wrapper {
     height: 600px;
+  }
+
+  .carousel-wrapper-secondary {
+    height: 400px;
   }
 
   .carousel-title {
@@ -189,7 +197,10 @@ a:hover {
     text-align: right;
 
   }
-
+  
+  .largebreakDesktop {
+    display: inherit;
+  }
 
 }
 
@@ -211,6 +222,10 @@ a:hover {
     height: 400px;
   }
 
+  .bannerSecondary {
+    height: 300px;
+  }
+
   .carousel-item-button {
     visibility: visible;
   }
@@ -224,6 +239,14 @@ a:hover {
 
   .carousel-wrapper {
     height: 340px;
+  }
+
+  .carousel-wrapper-secondary {
+    height: 300px;
+  }
+
+  .largebreakDesktop {
+    display: none;
   }
 
   .formPadding {
@@ -243,7 +266,7 @@ a:hover {
   }
 
   .navbar {
-    padding-left: 0;
+    /* padding-left: 0; */
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 1em;
@@ -657,19 +680,25 @@ a:hover {
 
 
 .banner.banner1 {
-  background-image: url(https://www.schellekens.com/wp-content/uploads/2017/05/Pontsteiger-Proscreen-zip-uitvoering-01-1540x400.png);
+  background-image: url(../images/slide1.jpg);
 }
 
 .banner.banner2 {
-  background-image: url(https://www.schellekens.com/wp-content/uploads/2017/06/hero-home-2-1440x400.jpg);
+  background-image: url(../images/slide2.jpg);
 }
 
 .banner.banner3 {
-  background-image: url(https://www.schellekens.com/wp-content/uploads/2017/07/jpg-TvdH20070829-008-1540x400.jpg);
+  background-image: url(../images/slide3.jpg);
+}
+
+.banner.bannerRepair {
+  background-image: url(../images/slideRepair.jpg);
 }
 
 .banner {
   background-size: cover;
+  background-repeat:no-repeat;
+background-position: center center;
   width: auto;
   position: relative;
   left: 0px;
@@ -682,9 +711,25 @@ a:hover {
   top: 0;
 }
 
+.carousel-wrapper-secondary {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
 .carousel-title {
   position: relative;
   height: 300px;
+  line-height: 100px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  display: table;
+}
+
+.carousel-title-secondary {
+  position: relative;
+  height: 400px;
   line-height: 100px;
   top: 50%;
   transform: translate(-50%, -50%);
