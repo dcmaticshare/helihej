@@ -484,16 +484,31 @@ a:hover {
   font-size: 80%;
   color: #dc3545;
   text-align: left;
-  max-width: 200%;
+  max-width: 300%;
   padding-left: 0;
 }
 
-.invalid-feedback-conditions {
 
-  max-width: 200%;
-  margin-left: 160px;
-  margin-top: 7px;
+
+@media (max-width: 767px) {
+  .invalid-feedback-conditions {
+    text-align: left;
+    max-width: unset;
+    margin-left: 25px;
+    width: 320px;
+  }
+
 }
+
+@media (min-width: 768px) {
+  .invalid-feedback-conditions {
+
+    max-width: 200%;
+    margin-left: 160px;
+  }
+}
+
+
 
 .form-group.boolCheck.needsSmallMargin.was-validated {
   margin-bottom: 1.5em;
@@ -694,6 +709,7 @@ form .col-sm-12.normalPadding {
 }
 
 
+
 @media (max-width: 392px) {
   .smallLineHeight {
     line-height: 1rem;
@@ -709,18 +725,45 @@ form .col-sm-12.normalPadding {
 @media (max-width: 423px) {
   .smallLineHeight2 {
     line-height: 1rem;
+
+    
+  }
+
+  .invalid-feedback-conditions2 {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 424px) {
+  .smallLineHeight2 {
+    line-height: 1.7rem;
+    
+  }
+
+  .invalid-feedback-conditions2 {
+    margin-top: 7px;
   }
 }
 
 @media (min-width: 405px) {
   .smallLineHeight3 {
     line-height: 1.7rem;
+
+  }
+
+  .invalid-feedback-conditions3 {
+    margin-top: 7px;
   }
 }
 
 @media (max-width: 404px) {
   .smallLineHeight3 {
     line-height: 1rem;
+
+  }
+
+  .invalid-feedback-conditions3 {
+    margin-top: 15px;
   }
 }
 
