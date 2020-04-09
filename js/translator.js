@@ -9,17 +9,21 @@ var dictionary = {
   },
   
   'banner1': {
-    'nl': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    'fr': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    'nl': 'Service & Onderhoud. Omdat zonwering gewoon moet werken.',
+    'fr': 'Service et maintenance. Parce que les stores doivent simplement fonctionner.',
   },
   'banner2': {
-    'nl': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    'fr': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    'nl': 'Uitgebreide contractportefeuille binnen alle sectoren!',
+    'fr': 'Large portefeuille de contrats dans tous les secteurs!',
   },
   'banner3': {
-    'nl': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    'fr': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    'nl': 'Zowel in klassieke als moderne context.',
+    'fr': 'Dans un contexte classique et moderne.',
   },
+  'banner4': {
+    'nl': 'Meer dan 50 jaar projectervaring.',
+    'fr': 'Plus de 50 ans d\'expérience en projets.',
+  }, 
   'bannerRepair': {
     'nl': 'Aanvraag herstelling',
     'fr': 'Demander réparation',
