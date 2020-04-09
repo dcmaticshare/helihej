@@ -30,6 +30,13 @@ h3 {
   letter-spacing: 0.2rem;
 }
 
+h4 {
+  font-family: 'HelveticaNeue-Roman';
+  line-height: 1;
+  font-size: 1.8rem;
+  letter-spacing: 0.03rem;
+}
+
 p {
   font-family: 'HelveticaNeue-Roman';
   font-size: 1.4rem;
@@ -185,9 +192,10 @@ a:hover {
     height: 300px;
     box-sizing: unset;
     line-height: 100px;
-    top: 50%;
+    top: 100px;
+    /* top: 50%;
     transform: translate(0, -50%);
-    display: table;
+    display: table; */
   }
 
   .carousel-title-secondary {
@@ -351,6 +359,10 @@ a:hover {
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 1em;
+  }
+
+  .carousel-readmore {
+    display: none;
   }
 
 }
@@ -650,6 +662,33 @@ a:hover {
 }
 
 
+.btn-outline-light {
+  margin-top: 60px;
+  border-width: 2px;
+}
+
+.card-title {
+  
+  /* text-decoration: underline;
+  text-decoration-color: #e59b1a; */
+}
+
+
+.card-text {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #9a9a9a;
+}
+
+.card-footer {
+  background-color: #ffffff;
+  border-top: none;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  padding-top: 0;
+}
 
 
 
@@ -779,7 +818,7 @@ a:hover {
 }
 
 .banner.banner2 {
-  background-image: url(../images/slide2b.jpg);
+  background-image: url(../images/slide2d.jpg);
 }
 
 .banner.banner3 {
@@ -787,7 +826,7 @@ a:hover {
 }
 
 .banner.banner4 {
-  background-image: url(../images/slide4c.jpg);
+  background-image: url(../images/slide4d.jpg);
 }
 
 .banner.bannerRepair {
