@@ -372,6 +372,11 @@ a:hover {
     font-size: 2.1rem;
   }
 
+  .carousel-title-secondary>h1 {
+    
+    font-size: 2.1rem;
+  }
+
 }
 
 
@@ -782,7 +787,7 @@ a:hover {
 }
 
 .banner.banner4 {
-  background-image: url(../images/slide4b.jpg);
+  background-image: url(../images/slide4c.jpg);
 }
 
 .banner.bannerRepair {
