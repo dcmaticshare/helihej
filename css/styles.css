@@ -294,6 +294,8 @@ a:hover {
     transform: translate(-50%, -50%);
     left: 50%;
     display: table;
+    word-wrap: break-word;
+    box-sizing: unset;
   }
 
   .carousel-title-secondary {
@@ -304,17 +306,20 @@ a:hover {
 
   .carousel-title-secondary>h1 {
     word-wrap: break-word;
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   .carousel-title>h1 {
     
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   .carousel-wrapper {
     height: 340px;
-    left: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    max-width: 80%;
   }
 
   .carousel-wrapper-secondary {
@@ -348,9 +353,6 @@ a:hover {
     padding-right: 1em;
   }
 
-  .carousel-wrapper {
-    width: 100%;
-  }
 }
 
 
@@ -363,6 +365,14 @@ a:hover {
 
 }
 
+@media (max-width: 467px) {
+
+  .carousel-title>h1 {
+    
+    font-size: 2.1rem;
+  }
+
+}
 
 
 
