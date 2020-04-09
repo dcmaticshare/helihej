@@ -176,8 +176,36 @@ a:hover {
   }
 
   .carousel-title {
-    width: 600px;
-    height: 100px;
+    width: 730px !important;
+    max-width: 730px !important;
+    position: absolute;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    height: 300px;
+    box-sizing: unset;
+    line-height: 100px;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: table;
+  }
+
+  .carousel-title-secondary {
+    width: 900px;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 900px;
+  }
+
+  .carousel-title-secondary>h1 {
+    
+    font-size: 3.5rem;
+  }
+
+  .banner-text-align {
+
+    text-align: left !important;
+
   }
 
   .formPadding {
@@ -197,11 +225,24 @@ a:hover {
     text-align: right;
 
   }
-  
+
   .largebreakDesktop {
     display: inherit;
   }
 
+  .carousel-wrapper {
+    width: 1140px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 1205px) {
+  .carousel-wrapper {
+    width: 1140px;
+    left: 30px;
+    transform: translate(0, 0);
+  }
 }
 
 @media (max-width: 991px) {
@@ -222,27 +263,52 @@ a:hover {
     height: 400px;
   }
 
+  .banner-text-align {
+
+    text-align: center;
+
+  }
+
   .bannerSecondary {
-    height: 300px;
+    height: 250px;
   }
 
   .carousel-item-button {
     visibility: visible;
   }
 
+
   .carousel-title {
     width: 100%;
-    height: 100px;
     padding-left: 20%;
     padding-right: 20%;
+    position: relative;
+    height: 250px;
+    line-height: 100px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    display: table;
+  }
+
+  .carousel-title-secondary {
+    width: 300px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .carousel-title-secondary>h1 {
+    word-wrap: break-word;
+    font-size: 3rem;
   }
 
   .carousel-wrapper {
     height: 340px;
+    left: 0;
   }
 
   .carousel-wrapper-secondary {
-    height: 300px;
+    height: 250px;
   }
 
   .largebreakDesktop {
@@ -270,6 +336,10 @@ a:hover {
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 1em;
+  }
+
+  .carousel-wrapper {
+    width: 100%;
   }
 }
 
@@ -691,14 +761,18 @@ a:hover {
   background-image: url(../images/slide3.jpg);
 }
 
+.banner.banner4 {
+  background-image: url(../images/slide4.jpg);
+}
+
 .banner.bannerRepair {
   background-image: url(../images/slideRepair.jpg);
 }
 
 .banner {
   background-size: cover;
-  background-repeat:no-repeat;
-background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center center;
   width: auto;
   position: relative;
   left: 0px;
@@ -707,7 +781,6 @@ background-position: center center;
 
 .carousel-wrapper {
   position: absolute;
-  width: 100%;
   top: 0;
 }
 
@@ -717,19 +790,13 @@ background-position: center center;
   top: 0;
 }
 
-.carousel-title {
-  position: relative;
-  height: 300px;
-  line-height: 100px;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  display: table;
-}
+
+
 
 .carousel-title-secondary {
+  
   position: relative;
-  height: 400px;
+  height: 200px;
   line-height: 100px;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -738,6 +805,16 @@ background-position: center center;
 }
 
 .carousel-title>h1 {
+  color: rgba(255, 255, 255, 0.94);
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 !important;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.carousel-title-secondary>h1 {
   color: rgba(255, 255, 255, 0.94);
   display: inline-block;
   vertical-align: middle;
@@ -779,7 +856,7 @@ form .col-sm-12.normalPadding {
   .smallLineHeight2 {
     line-height: 1rem;
 
-    
+
   }
 
   .invalid-feedback-conditions2 {
@@ -790,7 +867,7 @@ form .col-sm-12.normalPadding {
 @media (min-width: 424px) {
   .smallLineHeight2 {
     line-height: 1.7rem;
-    
+
   }
 
   .invalid-feedback-conditions2 {
@@ -842,4 +919,11 @@ form .col-sm-12.normalPadding {
   .smallLineHeight5 {
     line-height: 1rem;
   }
+}
+
+
+.carousel-wrapper-secondary {
+  width: 1140px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
