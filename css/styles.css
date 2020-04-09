@@ -197,6 +197,11 @@ a:hover {
     max-width: 900px;
   }
 
+  .carousel-title>h1 {
+    
+    font-size: 3.5rem;
+  }
+
   .carousel-title-secondary>h1 {
     
     font-size: 3.5rem;
@@ -299,6 +304,11 @@ a:hover {
 
   .carousel-title-secondary>h1 {
     word-wrap: break-word;
+    font-size: 3rem;
+  }
+
+  .carousel-title>h1 {
+    
     font-size: 3rem;
   }
 
@@ -750,23 +760,23 @@ a:hover {
 
 
 .banner.banner1 {
-  background-image: url(../images/slide1.jpg);
+  background-image: url(../images/slide1b.jpg);
 }
 
 .banner.banner2 {
-  background-image: url(../images/slide2.jpg);
+  background-image: url(../images/slide2b.jpg);
 }
 
 .banner.banner3 {
-  background-image: url(../images/slide3.jpg);
+  background-image: url(../images/slide3b.jpg);
 }
 
 .banner.banner4 {
-  background-image: url(../images/slide4.jpg);
+  background-image: url(../images/slide4b.jpg);
 }
 
 .banner.bannerRepair {
-  background-image: url(../images/slideRepair.jpg);
+  background-image: url(../images/slideRepairb.jpg);
 }
 
 .banner {
