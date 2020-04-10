@@ -25,7 +25,7 @@ var dictionary = {
     'fr': 'Plus de 50 ans d\'expérience en projets.',
   }, 
   'bannerRepair': {
-    'nl': 'Aanvraag herstelling',
+    'nl': 'Probleem? Helioscreen Service staat klaar!',
     'fr': 'Demander réparation',
   },
   
