@@ -162,7 +162,7 @@ a:hover {
   }
 
   .banner {
-    height: 600px;
+    height: 500px;
   }
 
   .bannerSecondary {
@@ -192,7 +192,7 @@ a:hover {
     height: 300px;
     box-sizing: unset;
     line-height: 100px;
-    top: 100px;
+    top: 80px;
     /* top: 50%;
     transform: translate(0, -50%);
     display: table; */
@@ -669,6 +669,7 @@ a:hover {
 
 .card-title {
   
+  margin-bottom: 1.1em;
   /* text-decoration: underline;
   text-decoration-color: #e59b1a; */
 }
@@ -696,8 +697,13 @@ a:hover {
 
 .nav-title {
   color: #9a9a9a;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+  /* font-weight: 2   00; */
   margin-bottom: 0.25em;
+}
+
+.nav-contact a {
+  /* color: #9a9a9a; */
 }
 
 
@@ -833,6 +839,18 @@ a:hover {
   background-image: url(../images/slideRepairb.jpg);
 }
 
+.banner.bannerPartners {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 450px;
+  background-image: url(../images/partnersBackground2.jpg);
+}
+
 .banner {
   background-size: cover;
   background-repeat: no-repeat;
@@ -842,6 +860,7 @@ a:hover {
   left: 0px;
   top: 0px;
 }
+
 
 .carousel-wrapper {
   position: absolute;
@@ -990,4 +1009,83 @@ form .col-sm-12.normalPadding {
   width: 1140px;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+
+.coloredSection {
+  background-color: #ffffff;
+}
+
+.brands {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partners-title {
+  font-size: 3.5rem;
+  color: #6d6d70;
+  text-align: center;
+}
+
+.row-cards {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cardPadding {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.mb-6 {
+  margin-bottom: 25px;
+}
+
+.footer-title {
+  color: #6d6d70;
+  font-size: 1.1rem;
+}
+
+.footer-element {
+  color: #9a9a9a;
+  font-size: 0.9rem;
+}
+
+.nav-contact .footer-title-first {
+  margin-bottom: 0.3em;
+}
+
+.socialIcon{
+  width: 50px;
+  height: 50px;
+  background-color: #6d6d70;
+  border-radius: 100%;
+}
+
+
+.socialIcon :hover,
+.socialIcon :focus,
+.socialIcon :active {
+  background-color: #6d6d70;
+}
+
+.list-inline {
+  
+  padding-left: 0;
+  width: 165px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer-logo {
+  
+  padding-top: 50px;
 }
