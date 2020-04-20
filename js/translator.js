@@ -13,7 +13,7 @@ var dictionary = {
     'fr': 'Service et maintenance. Parce que les stores doivent simplement fonctionner.',
   },
   'banner2': {
-    'nl': 'Uitgebreide contractportefeuille binnen alle sectoren!',
+    'nl': 'Uitgebreide contract-portefeuille binnen alle sectoren!',
     'fr': 'Large portefeuille de contrats dans tous les secteurs!',
   },
   'banner3': {
@@ -133,10 +133,13 @@ var dictionary = {
     'fr': 'Oui',
   },
   'kennisvoorwaarden': {
-    'nl': 'Ja, ik heb kennis genomen van de&nbsp;',
-    'fr': 'Oui, j\'ai lu les&nbsp;',
+    'nl': 'Ja, ik heb kennis genomen van de <a class=\"underline\" href=\"#\"\>algemene voorwaarden</a> *',
+    'fr': 'Oui, j\'ai lu les <a class=\"underline\" href=\"#\"\>conditions générales</a> *',
   },
-  
+  'kennistarieven': {
+    'nl': 'Ja, ik heb kennis genomen van de <a class=\"underline\" href=\"#\"\>tarieven</a> *',
+    'fr': 'Oui, j\'ai lu les <a class=\"underline\" href=\"#\"\>tarifs</a> *',
+  },
   'kieshier': {
     'nl': 'Kies hier',
     'fr': 'Choisissez ici',
@@ -215,6 +218,10 @@ var dictionary = {
   'veldError': {
     'nl': 'Veld niet correct ingevuld',
     'fr': 'Texte mal rempli',
+  },
+  'veldErrorSubmit': {
+    'nl': 'Formulier niet correct ingevuld',
+    'fr': 'Forme mal rempli',
   },
   'verzend': {
     'nl': 'Verzend',
