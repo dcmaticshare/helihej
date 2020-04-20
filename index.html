@@ -1,34 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
-  <title>Helioscreen Service</title>
-  <link rel="icon" type="image/png" href="images/favIcon.png">
-  <meta property="og:title" content="Helioscreen">
-  <meta property="og:description" content="">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+<title>Helioscreen Service</title>
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="fonts/fonts.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css?v=26">
+<!-- Styles-->
+<link rel="stylesheet" href="fonts/fonts.css" type="text/css">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/style.css?v=30" rel="stylesheet" type="text/css">
 
+<!--Favicon-->
+<link rel="icon" type="image/png" href="images/favIcon.png">
 </head>
 
 <body>
-  <div class="desktopNav containerContent">
+<header>
+  <div class="nav-desktop container-content">
     <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-top">
       <div class="top-infobar w-100 order-1 order-sm-0">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <div class="nav-contact">
-              <div class="nav-title" data-translate="contact">Contact</div>
-              <div class="phoneIcon"> <a href="tel:093404480">09/340.44.80</a></div>
-              <div class="mailIcon"> <a href="mailto:service@helioscreen.be">service@helioscreen.be</a></div>
-              <div class="notificationIcon"> <a class="lowercase" href="aanvraag_onderhoud.html"
-                  data-translate="herstellingaanvragen">herstelling aanvragen</a>
-              </div>
+              <h4 data-translate="contact">Contact</h4>
+              <p class="phoneIcon"> <a href="tel:093404480">09/340.44.80</a></p>
+              <p class="mailIcon"> <a href="mailto:service@helioscreen.be">service@helioscreen.be</a></p>
+              <p class="notificationIcon"> <a class="lowercase" href="aanvraag_onderhoud.html"
+                  data-translate="herstellingaanvragen">herstelling aanvragen</a> </p>
             </div>
           </li>
         </ul>
@@ -37,365 +36,201 @@
           class="brandLogo"></a>
       <div class="top-infobar w-100 order-3">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link nav-link-right-separated" href="http://www.helioscreen-projects.be/nl/home/"
-              data-translate="onsbedrijf">Ons bedrijf</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link nav-link-right-separated" href="#" data-translate="contact">Contact</a>
-          </li> -->
-          <li class="nav-item dropdown">
-            <a class="nav-link  dropdown-toggle uppercase" href="http://example.com" id="dropdown09"
+          <li class="nav-item"> <a class="nav-link nav-link-right-separated" href="http://www.helioscreen-projects.be/nl/home/"
+              data-translate="onsbedrijf">Ons bedrijf</a> </li>
+          <li class="nav-item dropdown"> <a class="nav-link  dropdown-toggle uppercase" href="http://example.com" id="dropdown09"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NL</a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown09">
-              <a class="dropdown-item" href="#fr" onclick="change_lang(1)"><span class=""> </span> Français</a>
-              <a class="dropdown-item" href="#nl" onclick="change_lang(0)"><span class=""> </span> Nederlands</a>
-            </div>
-
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown09"> <a class="dropdown-item" href="#fr" onclick="change_lang(1)"><span class=""> </span> Français</a> <a class="dropdown-item" href="#nl" onclick="change_lang(0)"><span class=""> </span> Nederlands</a> </div>
           </li>
         </ul>
       </div>
     </nav>
   </div>
-  <nav class="nav flex-column nav-secondary desktopNav">
+  <nav class="nav flex-column nav-secondary nav-desktop">
     <ul class="nav justify-content-center">
-      <li class="nav-item activeBorder home">
-        <!-- <a class="nav-link active" href="#"><img src="images/home.png" alt="Home Button" class="homeIcon"></a> -->
-        <a class="nav-link active" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="aanvraag_onderhoud.html" data-translate="herstelling">Herstelling</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" data-translate="onderhoud">Onderhoud</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" data-translate="voorschriften">Voorschriften</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.helioscreen-projects.be" data-translate="producten">Producten</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" data-translate="referenties">Referenties</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" data-translate="vacatures">Vacatures</a>
-      </li>
+      <li class="nav-item activeBorder home"> 
+        <a class="nav-link active" href="index.html">Home</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="aanvraag_onderhoud.html" data-translate="herstelling">Herstelling</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#" data-translate="onderhoud">Onderhoud</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#" data-translate="voorschriften">Voorschriften</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="http://www.helioscreen-projects.be" data-translate="producten">Producten</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#" data-translate="referenties">Referenties</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#" data-translate="vacatures">Vacatures</a> </li>
     </ul>
   </nav>
-  <div class="mobileNav">
-    <nav class="navbar sticky-top  navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="images/topLogo.png" alt="Helioscreen Projects" class="brandLogo"></a>
+  <div class="nav-mobile">
+    <nav class="navbar sticky-top  navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="images/topLogo.png" alt="Helioscreen Projects" class="brandLogo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <div class="dropdown-divider"></div>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
-          </li>
+          <li class="nav-item active"> <a class="nav-link" href="index.html" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a> </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item">
-            <a class="nav-link herstelling" href="aanvraag_onderhoud.html">Herstelling</a>
-          </li>
+          <li class="nav-item"> <a class="nav-link herstelling" href="aanvraag_onderhoud.html">Herstelling</a> </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="onderhoud" data-toggle="collapse"
-              data-target=".navbar-collapse.show">Onderhoud</a>
-          </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-translate="onderhoud" data-toggle="collapse"
+              data-target=".navbar-collapse.show">Onderhoud</a> </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="voorschriften" data-toggle="collapse"
-              data-target=".navbar-collapse.show">Voorschriften</a>
-          </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-translate="voorschriften" data-toggle="collapse"
+              data-target=".navbar-collapse.show">Voorschriften</a> </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item">
-            <a class="nav-link" href="http://www.helioscreen-projects.be" data-translate="producten"
-              data-toggle="collapse" data-target=".navbar-collapse.show">Producten</a>
-          </li>
+          <li class="nav-item"> <a class="nav-link" href="http://www.helioscreen-projects.be" data-translate="producten"
+              data-toggle="collapse" data-target=".navbar-collapse.show">Producten</a> </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="referenties" data-toggle="collapse"
-              data-target=".navbar-collapse.show">Referenties</a>
-          </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-translate="referenties" data-toggle="collapse"
+              data-target=".navbar-collapse.show">Referenties</a> </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="vacatures" data-toggle="collapse"
-              data-target=".navbar-collapse.show">Vacatures</a>
-          </li>
+          <li class="nav-item"> <a class="nav-link" href="#" data-translate="vacatures" data-toggle="collapse"
+              data-target=".navbar-collapse.show">Vacatures</a> </li>
           <div class="dropdown-divider"></div>
-          <li class="nav-item">
-            <a class="nav-link" href="http://www.helioscreen-projects.be/nl/home/" data-translate="onsbedrijf"
-              data-toggle="collapse" data-target=".navbar-collapse.show">Ons bedrijf</a>
-          </li>
+          <li class="nav-item"> <a class="nav-link" href="http://www.helioscreen-projects.be/nl/home/" data-translate="onsbedrijf"
+              data-toggle="collapse" data-target=".navbar-collapse.show">Ons bedrijf</a> </li>
           <div class="dropdown-divider"></div>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#" data-translate="contact" data-toggle="collapse"
-              data-target=".navbar-collapse.show">Contact</a>
-          </li> -->
-          <div class="dropdown-divider"></div>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle uppercase" href="#" id="navbarDropdownMenuLink" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              NL
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#fr" onclick="change_lang(1)" data-toggle="collapse"
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle uppercase" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> NL </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#fr" onclick="change_lang(1)" data-toggle="collapse"
                 data-target=".navbar-collapse.show">Français</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#nl" onclick="change_lang(0)" data-toggle="collapse"
-                data-target=".navbar-collapse.show">Nederlands</a>
-            </div>
+                data-target=".navbar-collapse.show">Nederlands</a> </div>
           </li>
         </ul>
       </div>
     </nav>
-
   </div>
+</header>
+<main>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
     </ol>
     <div class="carousel-inner">
-      <!-- <div class="carousel-item active">
-        <div class="banner banner1"></div>
-        <div class="carousel-wrapper ">
-          <div class="carousel-title">
-            <h1 data-translate="banner1"  class="banner-text-align">Service & Onderhoud. Omdat zonwering gewoon moet werken</h1>
-            <a href="#" class="btn btn-outline-light btn-lg">Lees meer</a>
-          </div>
-        </div>
-
-      </div> -->
       <div class="carousel-item active">
-        <div class="banner banner2"></div>
-        <div class="carousel-wrapper">
-          <div class="carousel-title">
-            <h1 data-translate="banner1" class="banner-text-align">Service & Onderhoud. Omdat zonwering gewoon moet
+        <div class="banner banner2">
+          <div class="banner-title">
+            <h1 data-translate="banner1">Service En Onderhoud. Omdat zonwering gewoon moet
               werken</h1>
-            <a href="#" class="btn btn-outline-light btn-lg carousel-readmore">Lees meer</a>
-          </div>
+            <a href="#" class="btn btn-outline-light btn-lg banner-readmore">Lees meer</a> </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="banner banner3"></div>
-        <div class="carousel-wrapper">
-          <div class="carousel-title">
-            <h1 data-translate="banner2" class="banner-text-align">Uitgebreide contractportefeuille binnen alle sectoren!</h1>
-            <a href="#" class="btn btn-outline-light btn-lg carousel-readmore">Lees meer</a>
-          </div>
+        <div class="banner banner3">
+          <div class="banner-title">
+            <h1 data-translate="banner2">Uitgebreide contractportefeuille binnen alle sectoren!</h1>
+            <a href="#" class="btn btn-outline-light btn-lg banner-readmore">Lees meer</a> </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="banner banner4"></div>
-        <div class="carousel-wrapper">
-          <div class="carousel-title">
-            <h1 data-translate="banner4" class="banner-text-align">Meer dan 50 jaar projectervaring.</h1>
-            <a href="#" class="btn btn-outline-light btn-lg carousel-readmore">Lees meer</a>
-          </div>
+        <div class="banner banner4">
+          <div class="banner-title">
+            <h1 data-translate="banner4">Meer dan 50 jaar projectervaring.</h1>
+            <a href="#" class="btn btn-outline-light btn-lg banner-readmore">Lees meer</a> </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="carousel-item-button">
-    <a href="aanvraag_onderhoud.html"><button class="btn btn-primary notificationIconLight"
+  <div class="banner-notification-button"> <a href="aanvraag_onderhoud.html">
+    <button class="btn btn-primary notificationIconLight"
         data-translate="herstellingaanvragen">Herstelling
-        aanvragen</button></a>
-  </div>
-
-
-  <div class="mediumbreak">
-    <br>
-  </div>
-  <div class="largebreak">
-    <br>
-  </div>
-  <section class="containerContent">
-    <div class="largebreak">
-      <br>
-    </div>
+    aanvragen</button>
+    </a> </div>
+  <section class="container-content section-margin-top">
     <div class="row text-center row-cards">
-
-      <div class="col-lg-4 col-md-6 mb-6 cardPadding">
-        <div class="card h-100">
-          <img class="card-img-top" src="images/herstellingIcon2.png" alt="">
+      <div class="col-lg-4 col-md-6 card-margin">
+        <div class="card h-100"> <img class="card-img-top" src="images/herstellingIcon2.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Herstellingen</h4>
+            <h3 class="card-title">Herstellingen</h3>
             <p class="card-text">Zonwering hangt het hele jaar door in alle weersomstandigheden buiten. Hierdoor kunnen
               er defecten ontstaan aan bijvoorbeeld het doek of de motor. Omdat zonwering gewoon moet werken komen wij
               bij een defect zo snel mogelijk in actie.</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Lees meer</a>
-          </div>
+          <div class="card-footer"> <a href="#" class="btn btn-primary">Lees meer</a> </div>
         </div>
       </div>
-
-      <div class="col-lg-4 col-md-6 mb-6 cardPadding">
-        <div class="card h-100">
-          <img class="card-img-top" src="images/onderhoudIcon2.png" alt="">
+      <div class="col-lg-4 col-md-6 card-margin">
+        <div class="card h-100"> <img class="card-img-top" src="images/onderhoudIcon2.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Onderhoud</h4>
+            <h3 class="card-title">Onderhoud</h3>
             <p class="card-text">Niets is zo vervelend als zonwering die niet werkt op het moment dat het nodig is.
               Preventief onderhoud kan onverwachte ongemakken voorkomen en verlengt ontegensprekelijk de levensduur van
               uw zonwering.</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Lees meer</a>
-          </div>
+          <div class="card-footer"> <a href="#" class="btn btn-primary">Lees meer</a> </div>
         </div>
       </div>
-
-      <div class="col-lg-4 col-md-6 mb-6 cardPadding">
-        <div class="card h-100">
-          <img class="card-img-top" src="images/referentiesIcon2.png" alt="">
+      <div class="col-lg-4 col-md-6 card-margin">
+        <div class="card h-100"> <img class="card-img-top" src="images/referentiesIcon2.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Referenties</h4>
+            <h3 class="card-title">Referenties</h3>
             <p class="card-text">Als marktleider in service en onderhoud heeft Helioscreen ervaring in alle branches en
               sectoren. Neem zeker een kijkje!</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Lees meer</a>
-          </div>
+          <div class="card-footer"> <a href="#" class="btn btn-primary">Lees meer</a> </div>
         </div>
       </div>
-
-
-    </div>
-    <div class="largebreak">
-      <br>
     </div>
   </section>
-  <div class="largebreak">
-    <br>
+  <section class="coloredSection banner banner-partners">
+    <div class="container-content row brands-container">
+      <div class="col-md-4 col-12 brands mx-auto"><a href="https://www.hunterdouglas.com/"><img src="images/partner1b.jpg" class="img-thumbnail" alt="Hunterdouglas"></a> </div>
+      <div class="col-md-4 col-12 brands mx-auto"><a href="http://www.verozo.be/"><img src="images/partner2.jpg" class="img-thumbnail" alt="Verozo"></a> </div>
+      <div class="col-md-4 col-12 brands mx-auto"><a href="https://www.schellekens.com/"><img src="images/partner3.jpg" class="img-thumbnail" alt="Schellekens"></a> </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="row container-content">
+    <div class="col-md-4 col-sm-12 footer-item">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <div class="nav-contact footer-left">
+            <h4 class="footer-title footer-title-first" data-translate="">Service en onderhoud</h4>
+            <p class="phoneIcon"> <a class="" href="tel:093404480">09/340.44.80</a></p>
+            <p class="mailIcon"> <a class="" href="mailto:service@helioscreen.be">service@helioscreen.be</a></p>
+            <p class="notificationIcon"> <a class="lowercase" href="aanvraag_onderhoud.html"
+                  data-translate="herstellingaanvragen">herstelling aanvragen</a> </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-12 footer-item">
+      <ul class="list-inline">
+        <li> <a href=""> <img src="images/footerFacebook.png" class="social-icon" alt="Facebook"> </a> </li>
+        <li> <a href=""> <img src="images/footerLinkedin.png" class="social-icon" alt="Linkedin"> </a> </li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-12 footer-item">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <div class="nav-contact footer-right">
+            <h4 class="" data-translate="">Helioscreen Service</h4>
+            <p class="rightAlign">Dijkstraat 26 - Industriezone E17/1080</p>
+            <p class="rightAlign">9160 Lokeren</p>
+            <p class="rightAlign">+32 (0)9 340 44 80</p>
+            <p class="rightAlign">info@helioscreen.be</p>
+            <p class="rightAlign">BTW BE 0413.567.616</p>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
-  <section class="coloredSection banner bannerPartners">
-    <div class="largebreak">
-      <br>
-    </div>
-    <div class="largebreak">
-      <br>
-    </div>
-    
-    <div class="largebreak">
-      <br>
-    </div>
-    <div class="largebreak">
-      <br>
-    </div>
-    <div class="containerContent row">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 brands">
-        <a href="https://www.hunterdouglas.com/"><img src="images/partner1b.jpg" class="img-thumbnail mx-auto d-block"></a>
-      </div>
+</footer>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 brands">
-        <a href="http://www.verozo.be/" class="mx-auto d-block"><img src="images/partner2.jpg" class="img-thumbnail "></a>
-      </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 brands">
-        <a href="https://www.schellekens.com/"><img src="images/partner3.jpg" class="img-thumbnail mx-auto d-block"></a>
-      </div>
-      
-    </div>
-    <div class="largebreak">
-      <br>
-    </div>
-    <div class="largebreak">
-      <br>
-    </div>
-    <div class="largebreak">
-      <br>
-    </div>
-  </section>
-  <section>
-    <div class="largebreak">
-      <br>
-    </div>
-    <div class="largebreak">
-      <br>
-    </div>
-    <div class="row containerContent">
-      <div class="col-lg-4 col-md-6 mr-6">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <div class="nav-contact">
-              <div class="footer-title footer-title-first" data-translate="">Service & onderhoud</div>
-              <div class="phoneIcon"> <a class=" footer-element" href="tel:093404480">09/340.44.80</a></div>
-              <div class="mailIcon"> <a class=" footer-element" href="mailto:service@helioscreen.be">service@helioscreen.be</a></div>
-              <div class="notificationIcon"> <a class="lowercase footer-element" href="aanvraag_onderhoud.html"
-                  data-translate="herstellingaanvragen">herstelling aanvragen</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-4 col-md-6 mr-6 footer-logo">
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script> 
 
-        <ul class="list-inline">
-          <li>
-            <a href="">
+<!-- Extra Javascript --> 
+<script src="js/translator.js?v=12"></script> 
 
-              <img src="images/footerFacebook.png" class="socialIcon">
-
-            </a>
-          </li>
-          <li>
-            <a href="">
-
-              <img src="images/footerLinkedin.png" class="socialIcon">
-
-            </a>
-          </li>
-
-        </ul>
-        
-      </div>
-      
-      <div class="col-lg-4 col-md-6 mr-6">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <div class="nav-contact">
-              <div class="nav-title rightAlign footer-title" data-translate="">Helioscreen Service</div>
-              <div class="rightAlign footer-element">Dijkstraat 26 - Industriezone E17/1080</div>
-              <div class="rightAlign footer-element">9160 Lokeren</div>
-              <div class="rightAlign footer-element">+32 (0)9 340 44 80</div>
-              <div class="rightAlign footer-element">info@helioscreen.be</div>
-              <div class="rightAlign footer-element">BTW BE 0413.567.616</div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    
-  </section>
-  <div class="largebreak">
-    <br>
-  </div>
-
-
-  <script src="js/jquery-3.2.1.slim.min.js">
-  </script>
-  <script src="js/popper.min.js">
-  </script>
-  <script src="js/bootstrap.min.js"></script>
-
-  <script>
-    $('.carousel').carousel()
-  </script>
-
-  <script>
-
-  </script>
-  <!-- Extra Javascript -->
-  <script src="js/translator.js?v=12"></script>
-
-  <!-- Smooth scrolling in IE -->
-  <script src="js/scrollFixIE.js"></script>
-
+<!-- Smooth scrolling in IE --> 
+<script src="js/scrollFixIE.js"></script
+>
 </body>
-
 </html>
