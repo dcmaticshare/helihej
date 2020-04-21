@@ -7,7 +7,7 @@ var dictionary = {
     'nl': 'algemene voorwaarden',
     'fr': 'conditions générales',
   },
-  
+
   'banner1': {
     'nl': 'Service & Onderhoud. Omdat zonwering gewoon moet werken.',
     'fr': 'Service et maintenance. Parce que les stores doivent simplement fonctionner.',
@@ -23,12 +23,12 @@ var dictionary = {
   'banner4': {
     'nl': 'Meer dan 50 jaar projectervaring.',
     'fr': 'Plus de 50 ans d\'expérience en projets.',
-  }, 
+  },
   'bannerRepair': {
     'nl': 'Probleem? Helioscreen Service staat klaar!',
     'fr': 'Demander réparation',
   },
-  
+
   'bedrijf': {
     'nl': 'Bedrijf',
     'fr': 'Entreprise',
@@ -57,7 +57,7 @@ var dictionary = {
     'nl': 'Facturatiegegevens',
     'fr': 'Informations de facturation',
   },
-  
+
   'factuurontvangenpermail': {
     'nl': 'Factuur ontvangen per mail *',
     'fr': 'Facture reçevoir par e-mail *',
@@ -78,7 +78,7 @@ var dictionary = {
     'nl': 'Gewenste uitvoering *',
     'fr': 'Version souhaitée *',
   },
-  
+
   'helioscreentarieven': {
     'nl': 'Helioscreen tarieven',
     'fr': 'taux d\'hélioscreen',
@@ -112,12 +112,12 @@ var dictionary = {
     'nl': 'Ik wil graag een onderhoudscontract',
     'fr': 'Je voudrai un contrat de maintenance',
   },
-  
+
   'inregie': {
     'nl': 'In regie (verkennende interventie - indien nodig - is steeds betalend)',
     'fr': 'En contrôle (intervention exploratoire - si nécessaire - est toujours facturée)',
   },
-  
+
   'interventieadres': {
     'nl': 'Interventieadres',
     'fr': 'Adresse d\'intervention',
@@ -126,8 +126,8 @@ var dictionary = {
     'nl': 'Het interventieadres is hetzelfde als het facturatieadres',
     'fr': 'L\'adresse d\'intervention est la même que l\'adresse de facturation',
   },
-  
-  
+
+
   'ja': {
     'nl': 'Ja',
     'fr': 'Oui',
@@ -144,7 +144,7 @@ var dictionary = {
     'nl': 'Kies hier',
     'fr': 'Choisissez ici',
   },
-  
+
   'klantnummer': {
     'nl': 'Klantnummer',
     'fr': 'Numéro de client',
@@ -165,7 +165,7 @@ var dictionary = {
     'nl': 'Naam contactpersoon ter plaatse *',
     'fr': 'Nom de la personne de contact sur place *',
   },
-  
+
   'nee': {
     'nl': 'Nee',
     'fr': 'Non',
@@ -174,18 +174,18 @@ var dictionary = {
     'nl': 'Offerte (verkennende interventie voor opmaak offerte is steeds betalend)',
     'fr': 'Devis (l\'intervention exploratoire pour l\'établissement du devis est toujours facturée)',
   },
-  
+
   'omschrijvingdefect': {
     'nl': 'Omschrijving defect',
     'fr': 'Description du défaut',
   },
-  
+
   'onderhoud': {
     'nl': 'Onderhoud',
     'fr': 'Entretien',
   },
-  
-  
+
+
   'onsbedrijf': {
     'nl': 'Ons bedrijf',
     'fr': 'Notre entreprise',
@@ -210,7 +210,7 @@ var dictionary = {
     'nl': 'Toelichting over de gevraagde interventie',
     'fr': 'Explication de l\'intervention demandée',
   },
-  
+
   'vacatures': {
     'nl': 'Vacatures',
     'fr': 'Postes vacants',
@@ -235,7 +235,7 @@ var dictionary = {
     'nl': 'Volgens onderhoudscontract - Ref.:',
     'fr': 'Selon contrat de maintenance - Réf.:',
   },
-  
+
   'voorschriften': {
     'nl': 'Voorschriften',
     'fr': 'Réglementations',
@@ -245,25 +245,66 @@ var dictionary = {
     'fr': 'Les conditions',
   }
 };
+
 var langs = ['nl', 'fr'];
 var current_lang_index = 0;
 var current_lang = langs[current_lang_index];
 
+
 window.change_lang = function (langIndexSelected) {
-  
   current_lang_index = langIndexSelected;
   current_lang = langs[current_lang_index];
-  $(".dropdown-toggle").each(function () {
-    $(this).text(current_lang);
-  });
+
+  var languageTogglers = document.querySelectorAll(".dropdown-toggle-language");
+
+  for (j = 0; j < languageTogglers.length; ++j) {
+    
+    languageTogglers[j].innerHTML = current_lang; //set the text
+  }
+
   translate();
 }
 
 function translate() {
-  $("[data-translate]").each(function () {
-    var key = $(this).data('translate');
-    $(this).html(dictionary[key][current_lang] || "N/A");
-  });
+  var dt = document.querySelectorAll("[data-translate]");
+
+
+  changeURLLanguage();
+
+  for (i = 0; i < dt.length; ++i) {
+    var key = dt[i].getAttribute('data-translate'); //get the key
+    dt[i].innerHTML = (dictionary[key][current_lang] || "N/A"); //set the text
+  }
+
 }
 
-translate();
+function changeURLLanguage() {
+
+  var urlIDs = document.querySelectorAll(".href-language-update");
+
+  for (k = 0; k < urlIDs.length; ++k) {
+    
+    var urlElem = urlIDs[k];
+    
+    if (typeof urlElem !== "undefined" && urlElem) {
+      var previousURL = urlElem.getAttribute("href");
+      const urlElems = previousURL.split('#');
+      if (urlElems.length > 0) {
+        if (urlElems.length == 1 || urlElems.length == 2) {
+          urlElem.setAttribute('href', urlElems[0].concat('#', current_lang));
+        }
+      }
+      
+    }
+
+  }
+}
+
+// Get the hash part
+var hash = window.location.hash.replace('#', '');
+
+if (hash == 'fr') {
+  change_lang(1);
+} else {
+  change_lang(0);
+}
