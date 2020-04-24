@@ -64,6 +64,7 @@ a:hover {
   color: #e59b1a;
 }
 
+
 /*General*/
 .uppercase {
   text-transform: uppercase;
@@ -388,6 +389,13 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.card-double {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
 .card-body {
   padding-top: 0;
 }
@@ -480,7 +488,7 @@ footer {
 
 /*Page Description*/
 .page-description {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   margin-bottom: 40px;
 }
 
@@ -505,12 +513,23 @@ footer {
   line-height: 2.7rem;
   letter-spacing: 0.02rem;
   padding-right: 20%;
+  text-align: left;
 }
 
-.page-description-left h2 {
+.page-description-picture-left h2 {
   text-align: right;
   padding-right: 0;
   padding-left: 20%;
+}
+
+.page-description-picture-right h2 {
+  text-align: left;
+  padding-left: 0;
+  padding-right: 20%;
+}
+
+.page-description h2 li {
+  padding-left: 10px;
 }
 
 .page-description-body {
@@ -527,14 +546,19 @@ footer {
   margin-bottom: 100px;
 }
 
-.page-description > .row.page-description-secondary {
-
-  margin-top: 140px;
-}
-
 
 .page-description img {
-  margin-top: -10px;
+  position: absolute;
+  max-width: 340px;
+}
+.page-description-picture-left img {
+  left: 15px;
+  right: auto;
+}
+
+.page-description-picture-right img {
+  right: 15px;
+  left: auto;
 }
 
 /*Repair Form*/
@@ -671,6 +695,51 @@ form .form-check label {
   
 }
 
+
+.parallax-onderhoud {
+  /* The image used */
+  background-image: url("../images/onderhoud-paralax.jpg");
+
+  /* Set a specific height */
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-onderhoud .row {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.parallax-onderhoud .card-margin {
+  margin-bottom: 40px;
+}
+
+.parallax-onderhoud h3 {
+  padding-top: 40px;
+  line-height: 1.3em;
+}
+
+.parallax-onderhoud .col-auto {
+  width: 26rem;
+  height: 100% !important;
+}
+
+.parallax-onderhoud .card {
+  height: 500px;
+}
+
+.parallax-onderhoud img {
+  position: absolute;
+  height: 100%;
+}
+
 /* Bootstrap overrides*/
 .bg-light {
   background-color: #ffffff !important;
@@ -776,6 +845,24 @@ form .form-check label {
   .brands-container {
     width: 100%;
   }
+
+  .page-description {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .page-description-picture-left h2 {
+    
+    padding-left: 40px;
+  }
+
+  
+
+  .page-description-picture-right h2 {
+    padding-right: 40px;
+  }
+
+  
 }
 
 @media (max-width:991px) {
@@ -842,9 +929,59 @@ form .form-check label {
     width: auto;
   }
 
+  .page-description img {
+    visibility: hidden;
+  }
+
+  .page-description-container {
+    align-content: center;
+    height: auto;
+  }
+  .page-description-container h2 {
+    height: auto;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  .page-description-container ul {
+    
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .page-description-container li {
+    
+    text-align: left;
+  }
+
+  .page-description > .row {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width:767px) {
+
+  .report-repair-title h3 {
+    max-width: 90%;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+  }
+
+  .banner-title-secondary>h1 {
+    
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
   .brands {
     height: 30%;
   }
@@ -903,9 +1040,36 @@ form .form-check label {
   .form-group .col-sm-12.col-md-4 {
     padding-left: 0;
   }
+
+  .page-description {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .page-description-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .page-description-container ul {
+    
+    width: 80%;
+  }
+
 }
 
 @media (max-width:490px) {
+
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .banner-title-secondary>h1 {
+    
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
   h1 {
     font-size: 2rem;
   }
@@ -923,8 +1087,28 @@ form .form-check label {
     padding-right: 20px;
   }
 
+  .parallax-onderhoud .col-auto {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .card-body {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .page-description-container ul {
+    
+    width: 100%;
+  }
+
+  .page-description-container h2 {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+  }
+
+  .page-description {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
