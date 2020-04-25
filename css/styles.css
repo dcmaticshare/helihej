@@ -572,7 +572,7 @@ footer {
 
 form h2 {
   text-align: left;
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 2em;
   padding-bottom: 0em;
   padding-left: 0 !important;
@@ -593,6 +593,7 @@ form label {
   font-weight: 500;
 }
 
+
 form .form-check label {
   text-align: left;
 }
@@ -602,15 +603,29 @@ form .form-check label {
   padding-left: 0;
 }
 
+.form-check.left-check label{
+  
+  margin-left: 10px;
+}
+
+.form-check .smallInput{
+  
+  margin-left: 10px;
+}
+
 .form-check.left-check label {
   text-align: left;
   padding-left: 0;
 }
 
 .left-check .form-check-input {
-  right: 0;
-  left: auto;
+  
   margin-right: 25px;
+}
+
+.form-check-input {
+  
+  margin-left: -15px;
 }
 
 .needsDisplayHidden {
@@ -640,6 +655,11 @@ form .form-check label {
   margin-top: 15px;
   margin-bottom: 20px;
 }
+
+.form-check-label {
+  padding-left: 10px;
+}
+
 
 .was-validated .form-check-label.label-invalid {
   color: #dc3545;
@@ -821,6 +841,10 @@ form .form-check label {
 .form-control-file {
   padding-left: 0;
   margin-bottom: 15px;
+}
+
+.form-check  {
+  margin-left: -3px;
 }
 
 .form-check.left-check {
@@ -1078,6 +1102,10 @@ form .form-check label {
     padding-left: 0;
   }
 
+  .navbar-nav .nav-link {
+    padding-left: 20px;
+  }
+
   .banner-title {
     width: 100%;
   }
@@ -1110,5 +1138,27 @@ form .form-check label {
   .page-description {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .form-group label {
+    padding-right: 0;
+  }
+
+  .form-group .col-sm-12 {
+    padding-right: 0;
+  }
+
+  .form-check .col-11 {
+    padding-right: 0;
+  }
+
+  form h2 {
+    font-size: 1.4em;
+  }
+
+  .container-content-form {
+   
+    padding-left: 0;
+    padding-right: 0;
   }
 }
