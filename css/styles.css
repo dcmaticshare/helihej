@@ -348,19 +348,28 @@ a:hover {
 }
 
 .banner.bannerRepair {
+  background-image: url(../images/partnersBackground.jpg);
+}
+
+.banner.bannerMaintenance {
   background-image: url(../images/slideRepairb.jpg);
 }
 
 .banner.banner-partners {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: auto;
   position: relative;
   left: 0px;
   top: 0px;
   height: 450px;
-  background-image: url(../images/partnersBackground2.jpg);
+  background-image: url(../images/slide9b.jpg);
+
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*Cards*/
@@ -398,6 +407,7 @@ a:hover {
 
 .card-body {
   padding-top: 0;
+  padding-bottom: 40px;
 }
 
 /*Brands*/
@@ -683,6 +693,15 @@ form .form-check label {
 
 .submit-visible {
   visibility: visible;
+}
+
+.form-group #exampleFormControlSelect2 {
+  height: 150px;
+}
+
+#exampleFormControlSelect2 option{
+  height: 30px;
+  padding-top: 7px;
 }
 
 /* Herstelling */
@@ -1161,4 +1180,10 @@ form .form-check label {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .parallax-onderhoud .card {
+    height: auto;
+  }
+
+  
 }
