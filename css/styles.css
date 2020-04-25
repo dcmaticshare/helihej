@@ -696,7 +696,7 @@ form .form-check label {
 }
 
 .form-group #exampleFormControlSelect2 {
-  height: 150px;
+  height: 160px;
 }
 
 #exampleFormControlSelect2 option{
@@ -1185,5 +1185,8 @@ form .form-check label {
     height: auto;
   }
 
+  .form-group #exampleFormControlSelect2 {
+    height: 40px;
+  }
   
 }
