@@ -4,6 +4,11 @@ html {
   font-size: 100%;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'HelveticaNeue-Roman';
   font-weight: 500;
@@ -349,6 +354,10 @@ a:hover {
 
 .banner.bannerRepair {
   background-image: url(../images/partnersBackground3.jpg);
+}
+
+.banner.bannerReferences {
+  background-image: url(../images/slide5b.jpg);
 }
 
 .banner.bannerMaintenance {
@@ -853,6 +862,23 @@ form .form-check label {
 .voorschriften-download h3 {
   padding-bottom: 20px;
 }
+
+#references-logos .container {
+  margin-top: 200px;
+}
+
+#references-logos .col-lg-3 {
+  margin-bottom: 20px;
+}
+
+#references-logos .img-fluid {
+  top: 50%;
+    
+   
+    -webkit-transform: translate(0, -50%);  
+    transform: translate(0, -50%);   
+}
+
 /* Bootstrap overrides*/
 .bg-light {
   background-color: #ffffff !important;
