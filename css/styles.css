@@ -879,6 +879,48 @@ form .form-check label {
     transform: translate(0, -50%);   
 }
 
+#vacancies-contact h3 {
+  padding-bottom: 20px;
+}
+
+#vacancies-contact label {
+  text-align: left;
+  color: #ffffff;
+}
+
+#vacancies-contact form {
+  width: 100%;
+}
+
+#vacancies-contact button {
+  margin-bottom: 50px;
+}
+
+#vacancies-description h1 {
+  text-align: right;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#vacancies-description h2 {
+  display: block;
+  text-align: left;
+}
+
+#vacancies-description .page-description-container {
+  position: relative;
+  margin-left: 0;
+  
+  height: auto;
+}
+
+#vacancies-description .page-description-container h2 {
+  
+  height: auto;
+  
+}
+
+
 /* Bootstrap overrides*/
 .bg-light {
   background-color: #ffffff !important;
