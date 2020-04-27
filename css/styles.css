@@ -238,6 +238,33 @@ a:hover {
   display: block;
 }
 
+.phoneIconWhite {
+  background-image: url('../images/phoneWhite.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  padding-left: 30px;
+  display: block;
+}
+
+.mailIconWhite {
+  background-image: url('../images/mailWhite.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  padding-left: 30px;
+  display: block;
+}
+
+.notificationIconWhite {
+  background-image: url('../images/notificationWhite.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  padding-left: 30px;
+  display: block;
+}
+
 .notificationIconLight {
   background-image: url('../images/notificationLight.png');
   background-repeat: no-repeat;
@@ -350,6 +377,19 @@ a:hover {
 
 .banner.banner4 {
   background-image: url(../images/slide4d.jpg);
+}
+
+.banner.banner-refs1 {
+  background-image: url(../images/banner-refs-01.jpg);
+}
+.banner.banner-refs2 {
+  background-image: url(../images/banner-refs-02.jpg);
+}
+.banner.banner-refs3 {
+  background-image: url(../images/banner-refs-03.jpg);
+}
+.banner.banner-refs4 {
+  background-image: url(../images/banner-refs-04.jpg);
 }
 
 .banner.bannerRepair {
@@ -468,6 +508,13 @@ footer {
 .social-icon :focus,
 .social-icon :active {
   background-color: #6d6d70;
+}
+
+.social-icon-white {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 100%;
 }
 
 .list-inline {
@@ -927,6 +974,17 @@ form .form-check label {
   
   height: auto;
   
+}
+
+footer.background-primary {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer.background-primary h4, footer.background-primary p, footer.background-primary a {
+  color: #ffffff;
 }
 
 
