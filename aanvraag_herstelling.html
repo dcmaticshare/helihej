@@ -10,7 +10,7 @@
   <!-- Styles-->
   <link rel="stylesheet" href="fonts/fonts.css" type="text/css">
   <link href="css/bootstrap.min.css?v=30" rel="stylesheet" type="text/css">
-  <link href="css/styles.css?v=37" rel="stylesheet" type="text/css">
+  <link href="css/styles.css?v=39" rel="stylesheet" type="text/css">
 
   <!--Favicon-->
   <link rel="icon" type="image/png" href="images/favIcon.png">
@@ -63,7 +63,8 @@
             data-translate="producten">Producten</a> </li>
         <li class="nav-item"> <a class="nav-link href-language-update" href="referenties.html"
             data-translate="referenties">Referenties</a> </li>
-        <li class="nav-item"> <a class="nav-link href-language-update" href="vacatures.html" data-translate="vacatures">Vacatures</a>
+        <li class="nav-item"> <a class="nav-link href-language-update" href="vacatures.html"
+            data-translate="vacatures">Vacatures</a>
         </li>
       </ul>
     </nav>
@@ -85,7 +86,8 @@
             <li class="nav-item"> <a class="nav-link href-language-update" href="onderhoud.html"
                 data-translate="onderhoud">Onderhoud</a> </li>
             <div class="dropdown-divider"></div>
-            <li class="nav-item"> <a class="nav-link href-language-update" href="voorschriften.html" data-translate="voorschriften">Voorschriften</a> </li>
+            <li class="nav-item"> <a class="nav-link href-language-update" href="voorschriften.html"
+                data-translate="voorschriften">Voorschriften</a> </li>
             <div class="dropdown-divider"></div>
             <li class="nav-item"> <a class="nav-link" href="http://www.helioscreen-projects.be"
                 data-translate="producten">Producten</a>
@@ -274,15 +276,15 @@
 
             </div>
             <div class="col-11 col-md-8 row ">
-  
+
               <input type="checkbox" class="form-check-input" name="sameAddressCheck" id="exampleCheck1"
-                  onclick="FillBilling(this.form)">
-                  <label class="form-check-label col-11 col-md-8" for="exampleCheck1"
-                  data-translate="interventieadreszelfde">Het
-                  interventieadres
-                  is hetzelfde als het
-                  facturatieadres</label>
-  
+                onclick="FillBilling(this.form)">
+              <label class="form-check-label col-11 col-md-8" for="exampleCheck1"
+                data-translate="interventieadreszelfde">Het
+                interventieadres
+                is hetzelfde als het
+                facturatieadres</label>
+
             </div>
           </div>
 
@@ -292,7 +294,7 @@
 
 
 
-          
+
 
 
 
@@ -399,7 +401,7 @@
               <label class="form-check-label col-11 col-md-8" for="exampleCheck2" data-translate="kennisvoorwaarden">Ja,
                 ik heb
                 kennis genomen
-                van de <a class="underline" href="#">algemene
+                van de <a class="underline" href="#" data-toggle="modal" data-target="#exampleModal2">algemene
                   voorwaarden</a>&nbsp;*</label>
             </div>
           </div>
@@ -412,16 +414,16 @@
             <div class="col-11 col-md-8 row ">
 
               <input type="checkbox" class="form-check-input validate-check" name="Kennisgenomen met tarieven"
-              id="exampleCheck3" value="Ja" required onClick="checkInputValidityChecked(this)">
+                id="exampleCheck3" value="Ja" required onClick="checkInputValidityChecked(this)">
               <label class="form-check-label col-11 col-md-8" for="exampleCheck3" data-translate="kennistarieven">Ja, ik
                 heb
                 kennis genomen
-                van de <a class="underline" href="#">tarieven</a>&nbsp;*</label>
+                van de <a class="underline" href="#" data-toggle="modal" data-target="#exampleModal">tarieven</a>&nbsp;*</label>
 
             </div>
 
 
-            
+
           </div>
           <div class="form-group validate-me row">
             <div class="col-sm-12 col-md-4">
@@ -480,6 +482,53 @@
         </form>
       </div>
     </section>
+
+
+    <!-- Modal voorwaarden-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Algemene voorwaarden</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora impedit, voluptas ipsam nihil fuga nesciunt delectus similique laboriosam consequatur neque natus exercitationem sequi recusandae saepe porro. Sequi omnis molestias beatae!</p>
+          </div>
+          <div class="modal-footer">
+            
+            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal tarieven-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tarieven Helioscreen</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Werkuren (standaard 2 technici): €58,50/u/technicus <br></p>
+            <p>Verplaatsing Antwerpen, Brabant, Oost-Vlaanderen: €110,00 <br></p>
+            <p>Verplaatsing Limburg, West-Vlaanderen: €165,00<br></p>
+          </div>
+          <div class="modal-footer">
+            
+            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -490,7 +539,7 @@
   <script src="js/bootstrap-4.4.1.js"></script>
 
   <!-- Extra Javascript -->
-  <script src="js/translator.js?v=31"></script>
+  <script src="js/translator.js?v=32"></script>
   <script src="js/fillBilling.js?v=30"></script>
   <script src="js/submitForms.js?v=30"></script>
   <script src="js/addRemoveDiv.js?v=30"></script>
