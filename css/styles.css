@@ -1002,7 +1002,19 @@ footer.background-primary h4, footer.background-primary p, footer.background-pri
     font-size: 1rem;
 }
 
+.zorgtech {
+  /* position: absolute; */
+  right: 40px;
+  left: auto;
+  margin-left: auto;
+  margin-right: 40px;
+  
+  margin-top: 115px;
+  width: 150px;
+  height: 58px;
 
+  border-radius: 5px;
+}
 
 
 /* Bootstrap overrides*/
@@ -1253,6 +1265,15 @@ footer.background-primary h4, footer.background-primary p, footer.background-pri
 
     margin-top: 100px;
     margin-bottom: 100px;
+  }
+
+  .zorgtech {
+    
+    margin-top: 15px;
+    margin-right: 30px;
+    width: 70px;
+    height: 28px;
+  
   }
 }
 
