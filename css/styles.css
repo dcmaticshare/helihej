@@ -993,6 +993,17 @@ footer.background-primary h4, footer.background-primary p, footer.background-pri
   color: #ffffff;
 }
 
+.modal h1 {
+  font-size: 1.7rem;
+}
+
+.modal p {
+  font-family: 'HelveticaNeue-Thin';
+    font-size: 1rem;
+}
+
+
+
 
 /* Bootstrap overrides*/
 .bg-light {
