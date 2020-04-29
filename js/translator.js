@@ -133,12 +133,13 @@ var dictionary = {
     'fr': 'Oui',
   },
   'kennisvoorwaarden': {
-    'nl': 'Ja, ik heb kennis genomen van de <a class=\"underline\" href=\"#\"\>algemene voorwaarden</a> *',
-    'fr': 'Oui, j\'ai lu les <a class=\"underline\" href=\"#\"\>conditions générales</a> *',
+    
+    'nl': 'Ja, ik heb kennis genomen van de <a class="underline" data-toggle="modal" data-target="#exampleModal2" href=\"#\"\>algemene voorwaarden</a>&nbsp;*',
+    'fr': 'Oui, j\'ai lu les <a class="underline" data-toggle="modal" data-target="#exampleModal2" href=\"#\"\>conditions générales</a>&nbsp;*',
   },
   'kennistarieven': {
-    'nl': 'Ja, ik heb kennis genomen van de <a class=\"underline\" href=\"#\"\>tarieven</a> *',
-    'fr': 'Oui, j\'ai lu les <a class=\"underline\" href=\"#\"\>tarifs</a> *',
+    'nl': 'Ja, ik heb kennis genomen van de <a class="underline" data-toggle="modal" data-target="#exampleModal" href=\"#\"\>tarieven</a>&nbsp;*',
+    'fr': 'Oui, j\'ai lu les <a class="underline" data-toggle="modal" data-target="#exampleModal" href=\"#\"\>tarifs</a>&nbsp;*',
   },
   'kieshier': {
     'nl': 'Kies hier',
