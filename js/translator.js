@@ -1,4 +1,8 @@
 var dictionary = {
+  'aanvraagherstelling': {
+    'nl': 'Aanvraag herstelling',
+    'fr': 'Demander une réparation',
+  },
   'adres*': {
     'nl': 'Adres *',
     'fr': 'Adresse *',
@@ -211,7 +215,28 @@ var dictionary = {
     'nl': 'Toelichting over de gevraagde interventie',
     'fr': 'Explication de l\'intervention demandée',
   },
+  'tarieven0': {
+    'nl': 'Tarieven Helioscreen',
+    'fr': 'Tarifs Helioscreen',
+  },
+  'tarieven1': {
+    'nl': 'Interventietarief aanvaard door aanvrager:<br>',
+    'fr': 'Tarifs d’intervention acceptés par le demandeur:<br>',
+  },
+  'tarieven2': {
+    'nl': 'Werkuren (standaard 2 technici):<br>€62,50/u/technicus<br>',
+    'fr': 'Prestations (standard 2 techniciens):<br>€62,50/h/par technicien',
+  },
+  'tarieven3': {
+    'nl': 'Verplaatsing Antwerpen, Brabant, Oost-Vlaanderen:<br>€125,00<br>',
+    'fr': 'Déplacement Anvers, Brabant, Flandre Orientale:<br>€120,00<br>',
+  },
+  'tarieven4': {
+    'nl': 'Verplaatsing Limburg, West-Vlaanderen:<br>€180,00<br>',
+    'fr': 'Déplacement Limbourg, Flandre Occidentale, Namur, Hainaut, Liège:<br>€180,00<br><br>Déplacement Province du Luxembourg,Grand-Duché du Luxembourg:<br>€285,00',
+  },
 
+  
   'vacatures': {
     'nl': 'Vacatures',
     'fr': 'Postes vacants',
