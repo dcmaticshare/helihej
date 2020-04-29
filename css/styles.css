@@ -941,6 +941,10 @@ form .form-check label {
     transform: translate(0, -50%);   
 }
 
+#references-logos img {
+  object-fit: contain;
+}
+
 #vacancies-contact h3 {
   padding-bottom: 20px;
 }
