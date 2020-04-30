@@ -907,6 +907,10 @@ form .form-check label {
   text-align: left;
 }
 
+.onderhoud-download .documentText {
+  color: #6d6d70;
+}
+
 .background-primary .icon-left {
   padding-right: 0;
 }
@@ -923,6 +927,29 @@ form .form-check label {
 
 .voorschriften-download h3 {
   padding-bottom: 20px;
+}
+
+
+.onderhoud-download {
+  padding-bottom: 40px;
+}
+
+.onderhoud-download h3 {
+  padding-bottom: 20px;
+  color: #6d6d70;
+}
+
+.onderhoud-download p {
+  color: #6d6d70;
+}
+
+.onderhoud-download .icon-left {
+  padding-right: 0;
+}
+
+.onderhoud-download .icon-right {
+  
+  padding-left: 40px;
 }
 
 #references-logos .container {
