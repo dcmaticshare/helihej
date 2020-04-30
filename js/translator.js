@@ -83,7 +83,14 @@ var dictionary = {
     'nl': 'DETAILS ZONWERING',
     'fr': 'DÉTAILS D\'AUVENT',
   },
-  
+  'facility1': {
+    'nl': 'Als beheerder van gebouwen bent u het aanspreekpunt voor alle problemen die zich voordoen. Oververhitting en verblinding hebben een nefaste invloed op het comfort en de productiviteit, en moeten dan ook te allen tijde vermeden worden.',
+    'fr': 'En tant que gestionnaire d\'immeuble, vous êtes le point de contact pour tous les problèmes qui surviennent. La surchauffe et l\'éblouissement ont un effet néfaste sur le confort et la productivité et doivent donc être évités à tout moment.',
+  },
+  'facility2': {
+    'nl': 'Door zich te beroepen op Helioscreen als leverancier kan u zichzelf ontzorgen. Onze medewekers gaan ter plaatse bij uw klanten, defecten worden voorkomen door middel van preventieve onderhoudsbeurten en wanneer er toch eens iets mis garanderen wij u snelle interventietermijnen. Helioscreen doet er alles aan om uw klant in uw naam zo snel mogelijk te behelpen en u ontvangt automatisch én onmiddellijk een digitaal kopij van het interventierapport.',
+    'fr': 'En faisant confiance à Helioscreen en tant que fournisseur, vous pouvez vous soulager. Nos employés se rendent sur place pour vos clients, les défauts sont évités grâce à une maintenance préventive et en cas de problème, nous vous garantissons des délais d\'intervention rapides. Helioscreen met tout en œuvre pour aider votre client en votre nom le plus rapidement possible et vous recevez automatiquement et immédiatement une copie numérique du rapport d\'intervention.',
+  },
   'facturatiegegevens': {
     'nl': 'Facturatiegegevens',
     'fr': 'Informations de facturation',
@@ -373,6 +380,18 @@ var dictionary = {
     'nl': 'Producten',
     'fr': 'Produits',
   },
+  'publiek1': {
+    'nl': 'Als overheidsinstelling bent u gebonden aan verschillende regels bij het kiezen van uw leverancier of het plaatsen van een bestelling. Met Helioscreen kiest u voor een partij die een ruime ervaring heeft in (raam)contracten met verschillende instanties. Bovendien hebben onze medewerkers opleidingen genoten in verband met contracteren met de overheid, zodat ze u op elk vlak, van A tot Z, bij kunnen staan.',
+    'fr': 'En tant qu\'agence gouvernementale, vous êtes lié par des règles différentes lorsque vous choisissez votre fournisseur ou passez une commande. Avec Helioscreen, vous choisissez une partie qui possède une vaste expérience dans les contrats (cadres) avec diverses organisations. De plus, nos employés ont reçu une formation en passation de marchés avec le gouvernement, afin qu\'ils puissent vous assister dans tous les domaines, de A à Z.',
+  },
+  'publiek2': {
+    'nl': 'Helioscreen streeft naar ontzorgen voor al haar klanten, en dat geldt niet minder voor de publieke sector. Wij zijn ervan overtuigd dat we meerwaarde bieden door U het werk gemakkelijker te maken, of het in sommige gevallen zelfs helemaal uit uw handen te nemen, zodat u zich kan concentreren op andere zaken.',
+    'fr': 'Helioscreen s\'efforce de décharger tous ses clients, et cela vaut tout autant pour le secteur public. Nous sommes convaincus que nous offrons une valeur ajoutée en facilitant le travail pour vous, ou même dans certains cas en le prenant complètement hors de vos mains, afin que vous puissiez vous concentrer sur d\'autres sujets.',
+  },
+  'publiek3': {
+    'nl': 'Aarzel niet contact moet ons op te nemen voor meer informatie. Onze werknemers komen graag langs voor een marktverkennend gesprek!',
+    'fr': 'N\'hésitez pas à nous contacter pour plus d\'informations. Nos employés sont heureux de venir pour une conversation d\'exploration de marché!',
+  },
   'referenties': {
     'nl': 'Referenties',
     'fr': 'Références',
@@ -523,6 +542,18 @@ var dictionary = {
   'voorwaarden': {
     'nl': 'Voorwaarden',
     'fr': 'Les conditions',
+  },
+  'zorg1': {
+    'nl': 'Bewoners en patiënten brengen lange dagen door op hun kamer, waardoor een gunstig binnenklimaat essentieel is voor het wooncomfort of genezingsproces. De rol van goed functionerende zonwering hierin is essentieel.',
+    'fr': 'Les résidents et les patients passent de longues journées dans leurs chambres, ce qui rend un climat intérieur favorable essentiel pour le confort de vie ou le processus de guérison. Le rôle d\'une protection solaire fonctionnant correctement dans ce domaine est essentiel.',
+  },
+  'zorg2': {
+    'nl': 'Bij problemen, en al zeker in het hoogseizoen, moet je kunnen rekenen op een betrouwbare partner. De wachttijden lopen hoog op, uw eigen technische medewerkers zitten overvol, en de bewoner/patient (lees: hun familie) eisen een snelle interventie. Door voor Helioscreen te opteren als partner zullen defecten vermeden worden dankzij preventief onderhoud en heeft u garanties op snelle interventies, zelf in het drukke hoogseizoen. Essentieel om uw eigen organisatie te ontzorgen!',
+    'fr': 'En cas de problème, et surtout en haute saison, vous devriez pouvoir compter sur un partenaire fiable. Les temps d\'attente sont élevés, votre propre personnel technique est surpeuplé et le résident / patient (lire: sa famille) exige une intervention rapide. En optant pour Helioscreen en tant que partenaire, les défauts seront évités grâce à une maintenance préventive et vous avez la garantie d\'interventions rapides, même en haute saison. Indispensable pour décharger votre propre organisation!',
+  }, 
+  'zorg3': {
+    'nl': 'Als trouwe deelnemer aan het Zorg.Tech congres draagt Helioscreen een goede aanpak hoog in het vaandel. De zorgsector is een uitdagend omgeving en onze technici zijn erop getraind om op de juiste manier om te gaan met de verschillende patiënten en bewoners.',
+    'fr': 'En tant que fidèle participant à la conférence Zorg.Tech, Helioscreen considère une bonne approche d\'une importance capitale. Le secteur de la santé est un environnement difficile et nos techniciens sont formés pour traiter correctement les différents patients et résidents.',
   }
 };
 
