@@ -339,6 +339,11 @@ var dictionary = {
     'nl': 'Onze Sales Engineers staan u graag bij om in overleg een overeenkomst uit werken die volledig aansluit bij uw wensen en noden.',
     'fr': 'Nos ingénieurs commerciaux sont heureux de vous aider à trouver un accord qui correspond pleinement à vos souhaits et besoins.',
   },
+  'onderhoudsBrochure': {
+    'nl': 'Download hier de onderhoudsbrochure',
+    'fr': 'Téléchargez la brochure de maintenance ici',
+  },
+  
   'onderhoudTekst1a': {
     'nl': 'Onderhoudscontract bij Helioscreen levert tal van voordelen:',
     'fr': 'Le contrat de maintenance avec Helioscreen offre de nombreux avantages:',
