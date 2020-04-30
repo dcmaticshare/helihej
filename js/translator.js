@@ -89,7 +89,7 @@ var dictionary = {
   },
   'facility2': {
     'nl': 'Door zich te beroepen op Helioscreen als leverancier kan u zichzelf ontzorgen. Onze medewekers gaan ter plaatse bij uw klanten, defecten worden voorkomen door middel van preventieve onderhoudsbeurten en wanneer er toch eens iets mis garanderen wij u snelle interventietermijnen. Helioscreen doet er alles aan om uw klant in uw naam zo snel mogelijk te behelpen en u ontvangt automatisch én onmiddellijk een digitaal kopij van het interventierapport.',
-    'fr': 'En faisant confiance à Helioscreen en tant que fournisseur, vous pouvez vous soulager. Nos employés se rendent sur place pour vos clients, les défauts sont évités grâce à une maintenance préventive et en cas de problème, nous vous garantissons des délais d\'intervention rapides. Helioscreen met tout en œuvre pour aider votre client en votre nom le plus rapidement possible et vous recevez automatiquement et immédiatement une copie numérique du rapport d\'intervention.',
+    'fr': 'En faisant confiance à Helioscreen en tant que fournisseur, vous pouvez vous sentir soulager. Nos employés se rendent sur place pour vos clients, les défauts sont évités grâce à une maintenance préventive et en cas de problème, nous vous garantissons des délais d\'intervention rapides. Helioscreen met tout en œuvre pour aider votre client en votre nom le plus rapidement possible et vous recevez automatiquement et immédiatement une copie numérique du rapport d\'intervention.',
   },
   'facturatiegegevens': {
     'nl': 'Facturatiegegevens',
@@ -136,7 +136,7 @@ var dictionary = {
   },
   'herstellingText1': {
     'nl': 'Wanneer u een defect of storing aan een zonnescherm of motor opmerkt is het van belang dat u de zonwering zo snel mogelijk op laat zodat het niet verder kan beschadigen. Neem vervolgens contact op met ons team Service en Onderhoud. Op basis van de situatie plant onze medewerker Service en Onderhoud een interventie in.',
-    'fr': 'Si vous constatez un défaut ou un dysfonctionnement d\'un pare-soleil ou d\'un moteur, il est important de laisser le pare-soleil allumé dès que possible afin qu\'il ne puisse plus être endommagé. Contactez ensuite notre équipe de service et de maintenance. Notre employé du service et de la maintenance planifie une intervention en fonction de la situation.',
+    'fr': 'Si vous constatez un défaut ou un dysfonctionnement d\'un pare-soleil ou d\'un moteur, il est important de laisser le pare-soleil fermé dès que possible afin qu\'il ne puisse plus être endommagé. Contactez ensuite notre équipe de service et de maintenance. Notre employé du service et de la maintenance planifie une intervention en fonction de la situation.',
   },
   'herstellingText2': {
     'nl': 'Een team van specialisten staat voor u klaar om uw zonwering opnieuw in goede staat te brengen. Onze ervaren technici overlopen graag met u de verschillende mogelijkheden en beste aanpak, terwijl u voor al uw vragen terecht kan bij onze medewerkers.',
@@ -325,7 +325,7 @@ var dictionary = {
   },
   'onderhoudcard1Body': {
     'nl': 'Jaarlijks wordt de zonwering grondig geïnspecteerd en onderhouden tegen een forfaitair bedrag. Hieronder vallen alle onderhoudswerken, -producten en kleine onderdelen. De ‘grotere’ herstellingen (motor, doek, profielen, stuurkasten, …) vallen buiten dit contract.',
-    'fr': 'Les stores sont soigneusement inspectés et entretenus chaque année pour un montant fixe. Cela comprend tous les travaux de maintenance, les produits et les petites pièces. Les "grosses" réparations (moteur, toile, profilés, boîtiers de commande, ...) ne sont pas couvertes par ce contrat.',
+    'fr': 'Les stores sont soigneusement inspectés et entretenus chaque année pour un montant fixe. Cela comprend tous les travaux de maintenance, les produits et les petites pièces. Les "grosses" réparations (moteurs, toiles, profilés, boîtiers de commande, ...) ne sont pas couvertes par ce contrat.',
   },
   'onderhoudcard2Body': {
     'nl': 'Elk jaar wordt er een grondige controle uitgevoerd, die ons toelaat de nodige onderhouds- of herstellingswerken te definiëren, omschrijven en begroten.',
@@ -366,7 +366,7 @@ var dictionary = {
   },
   'onderhoudTekst2': {
     'nl': 'Uw tijd is kostbaar en drukbezet. Laat u daarom ontzorgen over uw zonwering door de specialisten van Helioscreen. Met een onderhoudsovereenkomst wordt alles voor u geregeld, steeds in overleg, maar zonder dat u hiervoor iets hoeft te ondernemen. Onze medewerkers laten u weten wanneer het tijd is om de installatie te onderhouden, en u wordt vanzelf op de hoogte gebracht van de staat van uw installatie met een gedetailleerd onderhoudsrapport. Uiteraard geniet u ook tal van bovenstaande voordelen.',
-    'fr': 'Votre temps est précieux et occupé. Laissez-vous donc décharger de vos stores par les spécialistes d\'Helioscreen. Avec un contrat de maintenance, tout est arrangé pour vous, toujours en concertation, mais sans que vous ayez à faire quoi que ce soit. Notre personnel vous informera du moment de l\'entretien de l\'installation et vous serez automatiquement informé de l\'état de votre installation avec un rapport d\'entretien détaillé. Bien sûr, vous bénéficiez également de nombreux avantages ci-dessus.',
+    'fr': 'Votre temps est précieux et limité. Laissez-vous donc assister pour la gestion de vos stores par les spécialistes d\'Helioscreen. Avec un contrat de maintenance, tout est arrangé pour vous, toujours en concertation, mais sans que vous ayez à faire quoi que ce soit. Notre personnel vous informera du moment de l\'entretien de l\'installation et vous serez automatiquement informé de l\'état de votre installation avec un rapport d\'entretien détaillé. Bien sûr, vous bénéficiez également de nombreux avantages ci-dessus.',
   },
   'onderhoudTekst3': {
     'nl': 'Verschillende factoren (budget, bereikbaarheid, veiligheid, ...) spelen een grote rol bij het maken van de juiste keuze, en zijn bovendien voor elke klant verschillend. U heeft de keuze uit verschillende formules, en er kan ook steeds een voorstel op maat uitgewerkt worden.',
@@ -387,7 +387,7 @@ var dictionary = {
   },
   'publiek1': {
     'nl': 'Als overheidsinstelling bent u gebonden aan verschillende regels bij het kiezen van uw leverancier of het plaatsen van een bestelling. Met Helioscreen kiest u voor een partij die een ruime ervaring heeft in (raam)contracten met verschillende instanties. Bovendien hebben onze medewerkers opleidingen genoten in verband met contracteren met de overheid, zodat ze u op elk vlak, van A tot Z, bij kunnen staan.',
-    'fr': 'En tant qu\'agence gouvernementale, vous êtes lié par des règles différentes lorsque vous choisissez votre fournisseur ou passez une commande. Avec Helioscreen, vous choisissez une partie qui possède une vaste expérience dans les contrats (cadres) avec diverses organisations. De plus, nos employés ont reçu une formation en passation de marchés avec le gouvernement, afin qu\'ils puissent vous assister dans tous les domaines, de A à Z.',
+    'fr': 'En tant qu\'agence gouvernementale, vous êtes lié par des règles différentes lorsque vous choisissez votre fournisseur ou passez une commande. Avec Helioscreen, vous choisissez un partenaire qui possède une vaste expérience dans les contrats (cadres) avec diverses organisations. De plus, nos employés ont reçu une formation en passation de marchés avec le gouvernement, afin qu\'ils puissent vous assister dans tous les domaines, de A à Z.',
   },
   'publiek2': {
     'nl': 'Helioscreen streeft naar ontzorgen voor al haar klanten, en dat geldt niet minder voor de publieke sector. Wij zijn ervan overtuigd dat we meerwaarde bieden door U het werk gemakkelijker te maken, of het in sommige gevallen zelfs helemaal uit uw handen te nemen, zodat u zich kan concentreren op andere zaken.',
@@ -395,7 +395,7 @@ var dictionary = {
   },
   'publiek3': {
     'nl': 'Aarzel niet contact moet ons op te nemen voor meer informatie. Onze werknemers komen graag langs voor een marktverkennend gesprek!',
-    'fr': 'N\'hésitez pas à nous contacter pour plus d\'informations. Nos employés sont heureux de venir pour une conversation d\'exploration de marché!',
+    'fr': 'N\'hésitez pas à nous contacter pour plus d\'informations. Nos employés seront heureux de vous rencontrer pour discuter ensemble des différents marchés!',
   },
   'referenties': {
     'nl': 'Referenties',
@@ -482,7 +482,7 @@ var dictionary = {
   },
   'vacatureTitle': {
     'nl': 'SERVICE TECHNIEKER BUITENDIENST',
-    'fr': 'TECHNICIEN DE SERVICE HORS SERVICE',
+    'fr': 'TECHNICIEN DE SERVICE',
   },
   
   'vacatures': {
@@ -495,11 +495,11 @@ var dictionary = {
   },
   'vacature1part2': {
     'nl': '<ul><li>Je hebt ervaring in soortgelijke functie en je bent graag op de baan.</li><li>Vroeg uit de veren, buitenwerk en werken op hoogtes schrikt je niet af.</li><li>Je bezit een rijbewijs B.</li><li>Gebruikskennis Frans is een plus.</li><li>Diploma TSO (bouw, mechanica, elektromechanica, schrijnwerk ramen).</li><li>Je bent zorgvuldig, handig en bereid dit vak (verder) aan te leren onder leiding van ervaren collega’s.</li><li>Stipt, betrouwbaar en collegiaal ingesteld.</li></ul>',
-    'fr': '<ul> <li> Vous avez de l\'expérience dans un poste similaire et vous aimez être au travail. </li> <li> Se lever tôt, travailler à l\'extérieur et travailler en hauteur ne vous dissuade pas. </li> <li> Vous est titulaire d\'un permis de conduire B. </li> <li> La connaissance du français est un plus. </li> <li> Diplôme TSO (construction, mécanique, électromécanique, menuiserie fenêtres). </li> <li> Vous êtes prudent, pratique et désireux d\'apprendre (plus loin) ce cours sous la direction de collègues expérimentés. </li> <li> Ponctuel, fiable et collégial. </li> </ul>',
+    'fr': '<ul> <li> Vous avez de l\'expérience dans un poste similaire et vous aimez être au travail. </li> <li> Se lever tôt, travailler à l\'extérieur et travailler en hauteur ne vous dissuade pas. </li> <li> Vous est titulaire d\'un permis de conduire B. </li> <li> La connaissance du français est un plus. </li> <li> Diplôme TSO (construction, mécanique, électromécanique, menuiserie fenêtres). </li> <li> Vous êtes prudent, pratique et désireux d\'apprendre (encore) cours sous la direction de collègues expérimentés. </li> <li> Ponctuel, fiable et amical. </li> </ul>',
   },
   'vacature1part3': {
     'nl': '<br>Ons aanbod<br>Na grondige en on-the-job training kunnen loyale, betrouwbare en dynamische doorzetters zich volop ontplooien in hun functie en samenwerken met leuke collega’s binnen een groeiend en financieel gezond bedrijf. Bovendien verdien je een aantrekkelijke verloning in functie van je ervaring en capaciteiten, aangevuld met extralegale voordelen.',
-    'fr': '<br> Notre offre <br> Après une formation approfondie et en cours d\'emploi, des getters fidèles, fiables et dynamiques peuvent développer pleinement leur position et travailler avec de bons collègues au sein d\'une entreprise en pleine croissance et financièrement saine. De plus, vous gagnez un salaire attractif en fonction de votre expérience et de vos capacités, complété par des avantages sociaux.',
+    'fr': '<br> Notre offre <br> Après une formation approfondie sur le terrain, fiables et dynamiques vous pouvez pleinement développer votre position et travailler avec de bons collègues au sein d\'une entreprise en pleine croissance et financièrement saine. De plus, vous gagnez un salaire attractif en fonction de votre expérience et de vos capacités, complété par des avantages sociaux.',
   },
   
   'veldError': {
@@ -554,11 +554,11 @@ var dictionary = {
   },
   'zorg2': {
     'nl': 'Bij problemen, en al zeker in het hoogseizoen, moet je kunnen rekenen op een betrouwbare partner. De wachttijden lopen hoog op, uw eigen technische medewerkers zitten overvol, en de bewoner/patient (lees: hun familie) eisen een snelle interventie. Door voor Helioscreen te opteren als partner zullen defecten vermeden worden dankzij preventief onderhoud en heeft u garanties op snelle interventies, zelf in het drukke hoogseizoen. Essentieel om uw eigen organisatie te ontzorgen!',
-    'fr': 'En cas de problème, et surtout en haute saison, vous devriez pouvoir compter sur un partenaire fiable. Les temps d\'attente sont élevés, votre propre personnel technique est surpeuplé et le résident / patient (lire: sa famille) exige une intervention rapide. En optant pour Helioscreen en tant que partenaire, les défauts seront évités grâce à une maintenance préventive et vous avez la garantie d\'interventions rapides, même en haute saison. Indispensable pour décharger votre propre organisation!',
+    'fr': 'En cas de problème, et surtout en haute saison, vous devriez pouvoir compter sur un partenaire fiable. Les temps d\'attente sont élevés, votre propre personnel technique est surchargé et le résident / patient (lire: sa famille) exige une intervention rapide. En optant pour Helioscreen en tant que partenaire, les pannes seront évitées grâce à une maintenance préventive et vous avez la garantie d\'interventions rapides, même en haute saison. Indispensable pour soulager votre propre organisation!',
   }, 
   'zorg3': {
     'nl': 'Als trouwe deelnemer aan het Zorg.Tech congres draagt Helioscreen een goede aanpak hoog in het vaandel. De zorgsector is een uitdagend omgeving en onze technici zijn erop getraind om op de juiste manier om te gaan met de verschillende patiënten en bewoners.',
-    'fr': 'En tant que fidèle participant à la conférence Zorg.Tech, Helioscreen considère une bonne approche d\'une importance capitale. Le secteur de la santé est un environnement difficile et nos techniciens sont formés pour traiter correctement les différents patients et résidents.',
+    'fr': 'En tant que fidèle participant à la conférence Zorg.Tech, Helioscreen considère qu\'une bonne approche a une importance capitale. Le secteur de la santé est un environnement difficile et nos techniciens sont formés pour traiter correctement les différents patients et résidents.',
   }
 };
 
