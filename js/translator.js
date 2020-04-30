@@ -157,8 +157,8 @@ var dictionary = {
     'fr': 'Je ne sais pas',
   },
   'ikwileenonderhoudscontract': {
-    'nl': 'Ik wil graag een onderhoudscontract',
-    'fr': 'Je voudrai un contrat de maintenance',
+    'nl': 'Ik wil graag een vrijblijvend onderhoudsvoorstel',
+    'fr': 'Je souhaite une proposition de maintenance sans obligation',
   },
 
   'indexCardBody1': {
