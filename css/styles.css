@@ -827,6 +827,8 @@ form .form-check label {
 
 .parallax-onderhoud .card-margin {
   margin-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .parallax-onderhoud h3 {
