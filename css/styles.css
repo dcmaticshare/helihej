@@ -1182,6 +1182,11 @@ footer.background-primary h4, footer.background-primary p, footer.background-pri
     padding-right: 40px;
   }
 
+  .card {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
   
 }
 
