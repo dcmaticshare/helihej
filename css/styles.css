@@ -428,8 +428,8 @@ a:hover {
 
 /*Cards*/
 .card {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .card-title {
@@ -837,7 +837,7 @@ form .form-check label {
 }
 
 .parallax-onderhoud .col-auto {
-  width: 400px;
+  width: 360px;
   height: 100% !important;
 }
 
