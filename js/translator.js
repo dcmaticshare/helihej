@@ -365,7 +365,7 @@ var dictionary = {
     'fr': 'Maintenance et réparations sur toutes les marques',
   },
   'onderhoudTekst2': {
-    'nl': 'Uw tijd is kostbaar en drukbezet. Laat u daarom ontzorgen over uw zonwering door de specialisten van Helioscreen. Met een onderhoudsovereenkomst wordt alles voor u geregeld, steeds in overleg, maar zonder dat u hiervoor iets hoeft te ondernemen. Onze medewerkers laten u weten wanneer het tijd is om de installatie te onderhouden, en u wordt vanzelf op de hoogte gebracht van de staat van uw installatie met een gedetailleerd onderhoudsrapport. Uiteraard geniet u ook tal van bovenstaande voordelen.',
+    'nl': 'Uw tijd is kostbaar en drukbezet. Laat u daarom ontzorgen over uw zonwering door de specialisten van Helioscreen. Met een onderhoudsovereenkomst wordt alles voor u geregeld, steeds in overleg, maar zonder dat u hiervoor iets hoeft te ondernemen. Onze medewerkers laten u weten wanneer het tijd is om de installatie te onderhouden, en u wordt vanzelf op de hoogte gebracht van de staat van uw installatie met een gedetailleerd onderhoudsrapport. Uiteraard geniet u ook van bovenstaande voordelen.',
     'fr': 'Votre temps est précieux et limité. Laissez-vous donc assister pour la gestion de vos stores par les spécialistes d\'Helioscreen. Avec un contrat de maintenance, tout est arrangé pour vous, toujours en concertation, mais sans que vous ayez à faire quoi que ce soit. Notre personnel vous informera du moment de l\'entretien de l\'installation et vous serez automatiquement informé de l\'état de votre installation avec un rapport d\'entretien détaillé. Bien sûr, vous bénéficiez également de nombreux avantages ci-dessus.',
   },
   'onderhoudTekst3': {
