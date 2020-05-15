@@ -197,12 +197,23 @@
               </div>
             </div>
           </div>
+
+
+
           <div class="form-group validate-me row">
             <div class="col-sm-12 col-md-4">
-              <label for="billingAddress" data-translate="adres*">Adres *</label>
+              <label for="billingAddress1" data-translate="straatenhuis">Straat en huisnr. *</label>
             </div>
-            <input type="text" class="form-control col-sm-12 col-md-8" id="billingAddress" placeholder="" value=""
-              name="Facturatie Adres" required>
+            <input type="text" class="form-control col-sm-12 col-md-8" id="billingAddress1" placeholder="" value=""
+              name="facturatieadresstraat" required>
+            <div class="invalid-feedback" data-translate="veldError"> Veld niet correct ingevuld </div>
+          </div>
+          <div class="form-group validate-me row">
+            <div class="col-sm-12 col-md-4">
+              <label for="billingAddress2" data-translate="gemeenteenpost">Gemeente en postcode *</label>
+            </div>
+            <input type="text" class="form-control col-sm-12 col-md-8" id="billingAddress2" placeholder="" value=""
+              name="facturatieadresgemeente" required>
             <div class="invalid-feedback" data-translate="veldError"> Veld niet correct ingevuld </div>
           </div>
           <div class="form-group validate-me row">
@@ -290,20 +301,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div class="form-group row">
             <div class="col-sm-12 col-md-4">
               <label for="inputfield4" data-translate="bedrijf">Bedrijf</label>
@@ -312,14 +309,27 @@
               name="Bedrijf interventieadres">
             <div class="invalid-feedback" data-translate="veldError"> Veld niet correct ingevuld </div>
           </div>
+
           <div class="form-group validate-me row">
             <div class="col-sm-12 col-md-4">
-              <label for="inputfield5" data-translate="adres*">Adres *</label>
+              <label for="fieldAddress1" data-translate="straatenhuis">Straat en huisnr. *</label>
             </div>
-            <input type="text" class="form-control col-sm-12 col-md-8" name="workAddress" id="inputfield5"
-              placeholder="" value="" required>
+            <input type="text" class="form-control col-sm-12 col-md-8" id="fieldAddress1" placeholder="" value=""
+              name="werfadresstraat" required>
             <div class="invalid-feedback" data-translate="veldError"> Veld niet correct ingevuld </div>
           </div>
+          <div class="form-group validate-me row">
+            <div class="col-sm-12 col-md-4">
+              <label for="fieldAddress2" data-translate="gemeenteenpost">Gemeente en postcode *</label>
+            </div>
+            <input type="text" class="form-control col-sm-12 col-md-8" id="fieldAddress2" placeholder="" value=""
+              name="werfadresgemeente" required>
+            <div class="invalid-feedback" data-translate="veldError"> Veld niet correct ingevuld </div>
+          </div>
+
+
+
+
           <div class="form-group validate-me row">
             <div class="col-sm-12 col-md-4">
               <label for="inputfield6" data-translate="naamcontactterplaatse*">Naam
@@ -474,8 +484,10 @@
 
         </form>
         <form class="needs-validation" novalidate action="https://formspree.io/mlepgrrp" method="POST" id="form2">
-          <input type="text" class="form-control" id="adresNieuweKlant" placeholder="" value=""
-            name="Adres nieuwe klant">
+          <input type="text" class="form-control" id="adresNieuweKlant1" placeholder="" value=""
+            name="Straat nieuwe klant">
+          <input type="text" class="form-control" id="adresNieuweKlant2" placeholder="" value=""
+            name="Gemeente nieuwe klant">
           <input type="text" class="form-control" id="telNieuweKlant" placeholder="" value=""
             name="Telefoon nieuwe klant">
           <input type="text" class="form-control" id="emailNieuweKlant" placeholder="" value=""
@@ -484,6 +496,7 @@
             name="Ik heb een onderhoudscontract">
           <input type="text" class="form-control" id="onderhoudsContractInvisible2" placeholder="" value="Ja"
             name="Ik wil een onderhoudscontract">
+            
         </form>
       </div>
     </section>
@@ -548,7 +561,7 @@
   <!-- Extra Javascript -->
   <script src="js/translator.js?v=35"></script>
   <script src="js/fillBilling.js?v=30"></script>
-  <script src="js/submitForms.js?v=30"></script>
+  <script src="js/submitForms.js?v=31"></script>
   <script src="js/addRemoveDiv.js?v=30"></script>
 
   <!-- Smooth scrolling in IE -->
