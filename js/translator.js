@@ -109,8 +109,8 @@ var dictionary = {
     'fr': 'Rez-de-chaussée / terrasse (éventuellement avec petit escabeau)',
   },
   'gemeenteenpost': {
-    'nl': 'Gemeente en postcode',
-    'fr': 'Municipalité et code postal',
+    'nl': 'Gemeente en postcode *',
+    'fr': 'Municipalité et code postal *',
   },
   
   'gevelinstallatie': {
@@ -424,8 +424,8 @@ var dictionary = {
     'fr': 'Service et entretien',
   },
   'straatenhuis': {
-    'nl': 'Straat en huisnummer',
-    'fr': 'Rue et numéro de maison',
+    'nl': 'Straat en huisnummer *',
+    'fr': 'Rue et numéro de maison *',
   },
   'telefoonnummer': {
     'nl': 'Telefoonnummer',
@@ -477,7 +477,7 @@ var dictionary = {
   },
   
   'vacaturebanner': {
-    'nl': 'Meer 50 jaar ervaring om te delen.',
+    'nl': 'Meer dan 50 jaar ervaring om te delen.',
     'fr': 'Plus de 50 ans d\'expérience à partager.',
   },
   'vacatureTitle': {

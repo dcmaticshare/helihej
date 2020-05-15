@@ -58,12 +58,14 @@
 
 function submitExtraForm() {
 
-  var newAddressString = document.getElementById("billingAddress").value;
+  var newAddressString1 = document.getElementById("billingAddress1").value;
+  var newAddressString2 = document.getElementById("billingAddress2").value;
   var newEmailString = document.getElementById("billingEmail").value;
   var newTelString = document.getElementById("billingTel").value;
 
 
-  var newAddressField = document.getElementById("adresNieuweKlant");
+  var newAddressField1 = document.getElementById("adresNieuweKlant1");
+  var newAddressField2 = document.getElementById("adresNieuweKlant2");
   var newEmailField = document.getElementById("emailNieuweKlant");
   var newTelField = document.getElementById("telNieuweKlant");
 
@@ -73,7 +75,8 @@ function submitExtraForm() {
   if (needsToSend == true) {
     if (newEmailString != "" || newTelString != "") {
 
-      newAddressField.value = newAddressString;
+      newAddressField1.value = newAddressString1;
+      newAddressField2.value = newAddressString2;
       newEmailField.value = newEmailString;
       newTelField.value = newTelString;
 

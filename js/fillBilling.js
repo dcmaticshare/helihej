@@ -1,6 +1,8 @@
 function FillBilling(f) {
   if(f.sameAddressCheck.checked == true) {
-    f.workAddress.value = f.billingAddress.value;
+    f.werfadresstraat.value = f.facturatieadresstraat.value;
+    f.werfadresgemeente.value = f.facturatieadresgemeente.value;
+
   }
   else
   {
