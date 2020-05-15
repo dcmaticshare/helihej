@@ -127,7 +127,7 @@
     <section class="container-content">
 
       <div class="container-content-form">
-        <form class="needs-validation" novalidate action="https://formspree.io/xjvagbvg" method="POST" id="form1">
+        <form class="needs-validation" novalidate action="https://formspree.io/xjvagbvg" method="POST" enctype="multipart/form-data" id="form1">
           <div class="row">
             <h2 class="col-sm-12" data-translate="contactgegevens"> Contactgegevens </h2>
           </div>
@@ -178,7 +178,7 @@
               <label for="billingEmail">E-mail *</label>
             </div>
             <input type="email" class="form-control col-sm-12 col-md-8" id="billingEmail" placeholder="" value=""
-              name="Email" required>
+              name="_replyto" required>
             <div class="invalid-feedback" data-translate="veldError"> Veld niet correct ingevuld </div>
           </div>
           <div class="form-group row">
