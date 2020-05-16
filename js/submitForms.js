@@ -4,57 +4,106 @@
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.getElementsByClassName('needs-validation');
 
-    // Get all form-groups in need of validation
-    var validateGroup = document.getElementsByClassName('validate-me');
+    var submitButton = document.getElementById("submitButton");
 
-    var validateChecks = document.getElementsByClassName('validate-check');
-
-    var validateRadios = document.getElementsByClassName('validate-radio');
-
-    // Loop over them and prevent submission
-    var validation = Array.prototype.filter.call(forms, function (form) {
-      form.addEventListener('submit', function (event) {
-
-        var submitErrorElement = document.getElementById("submit-errormessage");
-
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-
-          submitErrorElement.classList.add('submit-visible');
-          submitErrorElement.classList.remove('submit-invisible');
-
-          //Added validation class to all form-groups in need of validation
-          for (var i = 0; i < validateChecks.length; i++) {
-            validateChecks[i].classList.add('was-validated');
-            checkInputValidityChecked(validateChecks[i]);
-
-          }
-
-          for (var i = 0; i < validateRadios.length; i++) {
-            validateRadios[i].classList.add('was-validatedRadio');
-            checkInputValiditySubmission(validateRadios[i]);
-
-          }
+    submitButton.addEventListener("click", function () {
 
 
-        } else {
-          submitErrorElement.classList.remove('submit-visible');
-          submitErrorElement.classList.add('submit-invisible');
-          submitExtraForm()
-        }
-        //Added validation class to all form-groups in need of validation
-        for (var i = 0; i < validateGroup.length; i++) {
-          validateGroup[i].classList.add('was-validated');
+      var textForButton = "Wordt verzonden"
 
+      // Get the hash part of the language
+      var hash = window.location.hash.replace('#', '');
 
-        }
+      if (hash == 'fr') {
+        textForButton = "Être envoyé";
+      }
 
-      }, false);
+      var formToSubmit = document.getElementById("form1");
+      submitButton.innerHTML = textForButton;
+      submitButton.classList.add('disabled')
+      submitButton.disabled = true;
+
+      submitSelectedForm(formToSubmit);
+
     });
+
+
   }, false);
 })();
 
+
+function submitSelectedForm(formSelected) {
+
+  // Get all form-groups in need of validation
+  var validateGroup = document.getElementsByClassName('validate-me');
+
+  var validateChecks = document.getElementsByClassName('validate-check');
+
+  var validateRadios = document.getElementsByClassName('validate-radio');
+
+
+
+  var submitErrorElement = document.getElementById("submit-errormessage");
+  if (formSelected.checkValidity() === false) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    var submitButton = document.getElementById("submitButton");
+
+
+    var textForButton = "Verzenden"
+
+    // Get the hash part of the language
+    var hash = window.location.hash.replace('#', '');
+
+    if (hash == 'fr') {
+      textForButton = "Envoyer";
+    }
+
+    submitButton.innerHTML = "Verzend";
+    submitButton.classList.add('disabled')
+    submitButton.disabled = false;
+
+    submitErrorElement.classList.add('submit-visible');
+    submitErrorElement.classList.remove('submit-invisible');
+
+    //Added validation class to all form-groups in need of validation
+    for (var i = 0; i < validateChecks.length; i++) {
+      validateChecks[i].classList.add('was-validated');
+      checkInputValidityChecked(validateChecks[i]);
+
+    }
+
+    for (var i = 0; i < validateRadios.length; i++) {
+      validateRadios[i].classList.add('was-validatedRadio');
+      checkInputValiditySubmission(validateRadios[i]);
+
+    }
+
+
+  } else {
+
+
+
+
+    submitErrorElement.classList.remove('submit-visible');
+    submitErrorElement.classList.add('submit-invisible');
+    formSelected.submit();
+
+    var secondForm = document.getElementById("form2");
+    if (secondForm !== null){
+      console.log("kkkkkk");
+      submitExtraForm();
+    }
+    
+  }
+  //Added validation class to all form-groups in need of validation
+  for (var i = 0; i < validateGroup.length; i++) {
+    validateGroup[i].classList.add('was-validated');
+
+
+  }
+}
 
 function submitExtraForm() {
 
@@ -71,7 +120,7 @@ function submitExtraForm() {
 
 
   var needsToSend = document.getElementById("needsMaintenanceTrue").checked;
-  
+
   if (needsToSend == true) {
     if (newEmailString != "" || newTelString != "") {
 
@@ -87,7 +136,7 @@ function submitExtraForm() {
 
       ajax(secondForm.method, secondForm.action, data);
     }
-  } 
+  }
 
 
 }
@@ -118,7 +167,7 @@ function checkInputValidityChecked(f) {
 function checkInputValiditySubmission(f) {
 
   var relatedRadios = document.getElementsByName(f.name);
-  
+
   var wasChecked = false;
   for (var j = 0, length = relatedRadios.length; j < length; j++) {
     if (relatedRadios[j].checked) {
@@ -128,19 +177,19 @@ function checkInputValiditySubmission(f) {
   }
 
   for (var k = 0, length = relatedRadios.length; k < length; k++) {
-    
+
     if (wasChecked == true) {
 
       relatedRadios[k].labels[0].classList.remove('label-invalid');
       relatedRadios[k].labels[0].classList.add('label-valid');
-  
+
     } else {
       relatedRadios[k].labels[0].classList.add('label-invalid');
       relatedRadios[k].labels[0].classList.remove('label-valid');
     }
   }
 
-  
+
 }
 
 function checkUitvoering(el) {
