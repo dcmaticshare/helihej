@@ -121,7 +121,7 @@
     <section class="banner-container">
       <div class="banner banner-secondary banner4">
         <div class="banner-title-secondary">
-          <h1 data-translate="vacaturebanner">Meer 50 jaar ervaring om te delen.</h1>
+          <h1 data-translate="vacaturebanner">Meer dan 50 jaar ervaring om te delen.</h1>
         </div>
       </div>
     </section>
@@ -185,7 +185,7 @@
       </div>
       <div class="row container-content">
         
-        <form id="form3" method="post" action="https://formspree.io/mrgyzywz">
+        <form id="form1" method="post" action="https://formspree.io/mwkrvkzb">
           
           <!--the rest of your form-->
           <div class="form-group">
@@ -194,7 +194,7 @@
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput2" class="formControlInput1" data-translate="emailadres">E-mailadres</label>
-            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="" name="Email">
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="" name="_replyto">
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput3" class="formControlInput1" data-translate="telefoonnummer">Telefoonnummer</label>
@@ -209,8 +209,13 @@
           
           
 
-          <button type="submit" class="btn btn-outline-light btn-lg submitButton" value="Send" data-translate="verzend">Verzend</button>
+          <button type="submit" class="btn btn-outline-light btn-lg submitButton" value="Send" data-translate="verzend"  id="submitButton">Verzend</button>
+          <div class="row d-none" >
+            <div class="col-12 invalid-feedback-button submit-invisible" data-translate="veldErrorSubmit"
+              id="submit-errormessage"> Formulier niet correct ingevuld </div>
+          </div>
         </form>
+        
       </div>
     </section>
 
@@ -262,9 +267,9 @@
   <script src="js/bootstrap-4.4.1.js"></script>
 
   <!-- Extra Javascript -->
-  <script src="js/translator.js?v=34"></script>
+  <script src="js/translator.js?v=35"></script>
   <script src="js/fillBilling.js?v=30"></script>
-  <script src="js/submitForms.js?v=30"></script>
+  <script src="js/submitForms.js?v=32"></script>
   <script src="js/addRemoveDiv.js?v=30"></script>
 
   <!-- Smooth scrolling in IE -->
